@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutorial on A minimal Hugo website</title>
-    <link>http://localhost:1313/tags/tutorial/</link>
-    <description>Recent content in Tutorial on A minimal Hugo website</description>
+    <title>Tutorial on A minimal Hugo website for Prasoon Pandey</title>
+    <link>https://ppandey10.github.io/personal/tags/tutorial/</link>
+    <description>Recent content in Tutorial on A minimal Hugo website for Prasoon Pandey</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ppandey10.github.io/personal/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World!</title>
-      <link>http://localhost:1313/blogs/01/03/2026/another-note/</link>
+      <link>https://ppandey10.github.io/personal/blogs/01/03/2026/another-note/</link>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/01/03/2026/another-note/</guid>
+      <guid>https://ppandey10.github.io/personal/blogs/01/03/2026/another-note/</guid>
       <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h2&gt;&#xA;&lt;p&gt;This is a test blog post.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# here is test code&#xA;import os&#xA;import numpy as np&#xA;import matplotlib.pyplot as plt&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;latex&#34;&gt;LaTeX&lt;/h2&gt;&#xA;&lt;p&gt;Here is an example of inline LaTeX: &lt;code&gt;$E = mc^2$&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Test for display math:&#xA;&lt;code&gt;$${\sqrt {n}}\left(\left({\frac {1}{n}}\sum _{i=1}^{n}X_{i}\right)-\mu \right)\ {\xrightarrow {d}}\ N\left(0,\sigma ^{2}\right)$$&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Another Note on A blogdown Tutorial</title>
-      <link>http://localhost:1313/note/14/06/2017/another-note/</link>
+      <link>https://ppandey10.github.io/personal/note/14/06/2017/another-note/</link>
       <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/note/14/06/2017/another-note/</guid>
+      <guid>https://ppandey10.github.io/personal/note/14/06/2017/another-note/</guid>
       <description>&lt;p&gt;I just discovered &lt;a href=&#34;https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/&#34;&gt;an awesome tutorial&lt;/a&gt; on &lt;strong&gt;blogdown&lt;/strong&gt; written by Alison. I have to admit this is &lt;em&gt;the&lt;/em&gt; best &lt;strong&gt;blogdown&lt;/strong&gt; tutorial I have seen so far.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/03-blogdown-2021.png&#34; alt=&#34;Alison&amp;rsquo;s blogdown tutorial&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
