@@ -1,0 +1,51 @@
+baseurl: "https://example.org/"  # please update this to your actual URL
+languageCode: "en-us"
+title: "A minimal Hugo website"
+theme: "hugo-xmin"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+footnotereturnlinkcontents: "↩"
+
+permalinks:
+  note: "/note/:day/:month/:year/:slug/"
+  post: "/post/:day/:month/:year/:slug/"
+  blogs: "/blogs/:day/:month/:year/:slug/"
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: About
+      url: "about/"
+      weight: 2
+    - name: Research
+      url: "research/"
+      weight: 3
+    - name: Blogs
+      url: "blogs/"
+      weight: 4
+
+params:
+  description: "A website built through Hugo and blogdown."
+  footer: "&copy; [Prasoon Pandey](https://yihui.org) 2025 -- {Year} | [Github](https://github.com/ppandey10) | [Twitter](https://x.com/panprasoon)"
+
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)

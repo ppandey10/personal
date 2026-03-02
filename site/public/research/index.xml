@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Researches on A minimal Hugo website</title>
+    <link>http://localhost:1313/research/</link>
+    <description>Recent content in Researches on A minimal Hugo website</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/research/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/research/</guid>
+      <description>&lt;h1 id=&#34;research&#34;&gt;Research&lt;/h1&gt;&#xA;&lt;h2 id=&#34;aging-and-longevity&#34;&gt;Aging and Longevity&lt;/h2&gt;&#xA;&lt;p&gt;For a past few months, I have been working alongside &lt;a href=&#34;https://donertas-group.github.io/author/mark-olenik/&#34;&gt;Dr. Olenik&lt;/a&gt; and &lt;a href=&#34;https://www.leibniz-fli.de/research/research-groups/doenertas&#34;&gt;Dr. Dönertas&lt;/a&gt; on a project that aims to understand the stochastic nature of aging.&lt;/p&gt;&#xA;&lt;p&gt;Chronological age is the time elapsed since birth, whereas ageing refers to the gradual decline in biological function that leads to an increased risk of death or disease. Measuring the state of ageing of an individual (i.e., their &amp;ldquo;biological age&amp;rdquo;) is a crucial step toward understanding and addressing age-related diseases and extending lifespans. We model this with what is called an &amp;ldquo;aging clock&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

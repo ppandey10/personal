@@ -1,0 +1,174 @@
+:root {
+  --bg-color: #fff;
+  --text-color: #000;
+  --link-color: #00e;
+  --accent-bg: #eee;
+  --border-color: #ddd;
+  --code-bg: #f9f9f9;
+  --quote-border: #ccc;
+  --table-border: #666;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --link-color: #8ab4f8;
+    --accent-bg: #333;
+    --border-color: #444;
+    --code-bg: #2d2d2d;
+    --quote-border: #666;
+    --table-border: #888;
+  }
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  line-height: 1.5;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+p,
+li {
+  text-align: justify;
+}
+
+/* header and footer areas */
+.menu {
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.article-meta,
+.menu a {
+  text-decoration: none;
+  background: var(--accent-bg);
+  padding: 5px;
+  border-radius: 5px;
+  color: var(--text-color);
+}
+
+.menu,
+.article-meta,
+footer {
+  text-align: center;
+}
+
+.title {
+  font-size: 1.1em;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+hr {
+  border-style: dashed;
+  color: var(--border-color);
+}
+
+/* code */
+pre {
+  border: 1px solid var(--border-color);
+  box-shadow: 5px 5px 5px var(--accent-bg);
+  padding: 1em;
+  overflow-x: auto;
+}
+
+code {
+  background: var(--code-bg);
+}
+
+pre code {
+  background: none;
+}
+
+/* misc elements */
+img,
+iframe,
+video {
+  max-width: 100%;
+}
+
+main {
+  hyphens: auto;
+}
+
+blockquote {
+  background: var(--code-bg);
+  border-left: 5px solid var(--quote-border);
+  padding: 3px 1em 3px;
+}
+
+table {
+  margin: auto;
+  border-top: 1px solid var(--table-border);
+  border-bottom: 1px solid var(--table-border);
+}
+
+table thead th {
+  border-bottom: 1px solid var(--border-color);
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+thead,
+tfoot,
+tr:nth-child(even) {
+  background: var(--accent-bg);
+}
+
+a {
+  color: var(--link-color);
+}
+
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  font-size: 1.8em;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: var(--link-color);
+}
+
+.social-icons .github:hover {
+  color: #333;
+}
+
+.social-icons .scholar:hover {
+  color: #4285f4;
+}
+
+.social-icons .linkedin:hover {
+  color: #0077b5;
+}
+
+.social-icons .orcid:hover {
+  color: #a6ce39;
+}
+
+@media (prefers-color-scheme: dark) {
+  .social-icons .github:hover {
+    color: #fff;
+  }
+}
