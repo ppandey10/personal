@@ -10,6 +10,6 @@ I then pursued a Master’s degree in Computational Physics at [Friedrich-Schill
 
 Alongside my thesis, I actively explored interdisciplinary applications of machine learning. As a student researcher with [Dr. Nuno Carvalhais](https://www.bgc-jena.mpg.de/person/121289/2206) at the [Max Planck Institute for Biogeochemistry](https://www.bgc-jena.mpg.de/), I developed spatio-temporal deep learning models to forecast extreme droughts and heatwaves across Africa, working at the interface of climate science and AI.
 
-In early 2025, I joined [Dr. Melike Dönertaş’ group](https://www.leibniz-fli.de/research/research-groups/doenertas) as a HiWi student, where I began investigating the stochastic nature of aging. My work evolved toward developing dynamical systems models of DNA methylation to understand how molecular variability accumulates over time and contributes to biological aging. I now continue this line of research as a PhD student, aiming to bridge mechanistic modeling and data-driven approaches in aging research.
+In early 2025, I joined [Dr. Melike Dönertaş’ group](https://www.leibniz-fli.de/research/research-groups/doenertas) as a HiWi student, where I began investigating the stochastic nature of aging. My work evolved toward developing dynamical systems models of DNA methylation to understand how regulatory networks are perturbed over time and contribute to biological aging. I now continue this line of research as a PhD student, aiming to bridge mechanistic modeling and data-driven approaches in aging research.
 
 #TODO: UPDATE!

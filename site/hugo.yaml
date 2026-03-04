@@ -1,6 +1,6 @@
 baseurl: "https://ppandey10.github.io/personal/"  # please update this to your actual URL
 languageCode: "en-us"
-title: "A minimal Hugo website for Prasoon Pandey"
+title: "Hi, I am Prasoon!"
 theme: "hugo-xmin"
 googleAnalytics: ""
 disqusShortname: ""
