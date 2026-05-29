@@ -1,0 +1,19 @@
+{{ $role := .role }}
+
+<details class="cv-role-entry">
+  <summary class="cv-role-summary">
+    <span class="cv-marker cv-marker--sub" aria-hidden="true"></span>
+    <span class="cv-role-main">
+      <span class="cv-role-dates">{{ $role.dates }}</span>
+      <span class="cv-role-name">{{ $role.role }}</span>
+    </span>
+    <span class="cv-toggle cv-toggle--small" aria-hidden="true"></span>
+  </summary>
+  {{ with $role.bullets }}
+  <div class="cv-role-panel">
+    <ul class="cv-bullets">
+      {{ range . }}<li>{{ . }}</li>{{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</details>

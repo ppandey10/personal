@@ -1,0 +1,40 @@
+{{ $group := .group }}
+{{ $label := default "Supervisor" $group.supervisor_label }}
+
+<article class="cv-group">
+  <span class="cv-marker" aria-hidden="true"></span>
+  <div class="cv-body">
+    <div class="cv-main">
+      <span class="cv-dates">{{ $group.dates }}</span>
+      {{ with $group.role }}
+      <span class="cv-role">{{ . }}</span>
+      {{ end }}
+      {{ if $group.institution }}
+      <span class="cv-institution">
+        {{ if $group.institution_url }}
+        <a href="{{ $group.institution_url }}">{{ $group.institution }}</a>
+        {{ else }}
+        {{ $group.institution }}
+        {{ end }}
+      </span>
+      {{ end }}
+    </div>
+    {{ with $group.supervisor }}
+    <span class="cv-supervisor">
+      <span class="cv-supervisor-label">{{ $label }}</span>
+      <span class="cv-supervisor-name">
+        {{ if $group.supervisor_url }}
+        <a href="{{ $group.supervisor_url }}">{{ . }}</a>
+        {{ else }}
+        {{ . }}
+        {{ end }}
+      </span>
+    </span>
+    {{ end }}
+  </div>
+  <div class="cv-group-roles">
+    {{ range $group.roles }}
+    {{ partial "cv_role.html" (dict "role" .) }}
+    {{ end }}
+  </div>
+</article>

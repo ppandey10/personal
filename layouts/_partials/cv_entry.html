@@ -1,0 +1,81 @@
+{{ $pos := .pos }}
+{{ $hasDetails := or $pos.bullets $pos.description }}
+{{ $dates := $pos.dates }}
+{{ if not $dates }}{{ $dates = printf "%s – %s" $pos.start $pos.end }}{{ end }}
+{{ $label := default "Supervisor" $pos.supervisor_label }}
+
+{{ if $hasDetails }}
+<details class="cv-entry">
+  <summary class="cv-summary">
+    <span class="cv-marker" aria-hidden="true"></span>
+    <span class="cv-body">
+      <span class="cv-main">
+        <span class="cv-dates">{{ $dates }}</span>
+        <span class="cv-role">{{ $pos.role }}</span>
+        {{ if $pos.institution }}
+        <span class="cv-institution">
+          {{ if $pos.institution_url }}
+          <a href="{{ $pos.institution_url }}">{{ $pos.institution }}</a>
+          {{ else }}
+          {{ $pos.institution }}
+          {{ end }}
+        </span>
+        {{ end }}
+      </span>
+      {{ with $pos.supervisor }}
+      <span class="cv-supervisor">
+        <span class="cv-supervisor-label">{{ $label }}</span>
+        <span class="cv-supervisor-name">
+          {{ if $pos.supervisor_url }}
+          <a href="{{ $pos.supervisor_url }}">{{ . }}</a>
+          {{ else }}
+          {{ . }}
+          {{ end }}
+        </span>
+      </span>
+      {{ end }}
+    </span>
+    <span class="cv-toggle" aria-hidden="true"></span>
+  </summary>
+  <div class="cv-panel">
+    {{ with $pos.bullets }}
+    <ul class="cv-bullets">
+      {{ range . }}<li>{{ . }}</li>{{ end }}
+    </ul>
+    {{ else }}
+    <p class="cv-description">{{ $pos.description }}</p>
+    {{ end }}
+  </div>
+</details>
+{{ else }}
+<article class="cv-entry cv-entry--static">
+  <span class="cv-marker" aria-hidden="true"></span>
+  <div class="cv-body">
+    <div class="cv-main">
+      <p class="cv-dates">{{ $dates }}</p>
+      <p class="cv-role">{{ $pos.role }}</p>
+      {{ if $pos.institution }}
+      <p class="cv-institution">
+        {{ if $pos.institution_url }}
+        <a href="{{ $pos.institution_url }}">{{ $pos.institution }}</a>
+        {{ else }}
+        {{ $pos.institution }}
+        {{ end }}
+      </p>
+      {{ end }}
+    </div>
+    {{ with $pos.supervisor }}
+    <p class="cv-supervisor">
+      <span class="cv-supervisor-label">{{ $label }}</span>
+      <span class="cv-supervisor-name">
+        {{ if $pos.supervisor_url }}
+        <a href="{{ $pos.supervisor_url }}">{{ . }}</a>
+        {{ else }}
+        {{ . }}
+        {{ end }}
+      </span>
+    </p>
+    {{ end }}
+  </div>
+</article>
+{{ end }}

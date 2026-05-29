@@ -1,0 +1,29 @@
+{{ $cv := hugo.Data.cv }}
+
+<div class="cv-timeline">
+  {{ range $cv.positions }}
+  {{ if .roles }}
+  {{ partial "cv_group.html" (dict "group" .) }}
+  {{ else }}
+  {{ partial "cv_entry.html" (dict "pos" .) }}
+  {{ end }}
+  {{ end }}
+</div>
+
+{{ with $cv.publications }}
+<h2 class="cv-section-title">Publication</h2>
+<ul class="cv-publications">
+  {{ range . }}
+  {{ $authors := .authors }}
+  {{ with .highlight_author }}
+  {{ $authors = replace $authors . (printf "<strong>%s</strong>" .) }}
+  {{ end }}
+  <li class="cv-publication">
+    <p class="cv-publication-citation">
+      {{ $authors | safeHTML }}. “{{ .title }}”. <em>{{ .venue }}</em>.
+      {{ with .doi }}<a href="https://doi.org/{{ . }}">doi:{{ . }}</a>{{ end }}
+    </p>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

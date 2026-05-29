@@ -1,0 +1,62 @@
+positions:
+  - dates: "March 2025 - Present"
+    role: "Student Researcher → PhD"
+    institution: "Fritz Lipmann Institute, Germany"
+    institution_url: "https://www.leibniz-fli.de/"
+    supervisor: "Dr. H. Melike Dönertas"
+    supervisor_url: "https://www.leibniz-fli.de/research/research-groups/doenertas"
+    supervisor_label: "Advisor"
+    roles:
+      - dates: "April 2026 - Present"
+        role: "PhD in Computational Biology"
+        bullets:
+          - "Research: Theoretical Aging Models and Machine Learning"
+          - "Continuing development of biologically informed frameworks for modeling epigenetic aging and DNA methylation dynamics"
+
+      - dates: "March 2025 - April 2026"
+        role: "ML Student Researcher"
+        bullets:
+          - "Investigated the stochastic nature of aging and developed dynamical systems models of DNA methylation"
+          - "Leading and developing a mathematically grounded framework for epigenetic aging, modeling the cellular dynamics of DNA methylation"
+          - "Analyzing the mechanistic and biological interpretation of traditional ElasticNet-based epigenetic predictors"
+          - "Designing and maintaining data engineering pipelines for large-scale DNAm datasets, including preprocessing and package management"
+
+  - dates: "October 2022 - April 2026"
+    role: "MSc in Physics"
+    institution: "Friedrich-Schiller-Universität Jena, Germany"
+    institution_url: "https://www.uni-jena.de/"
+    supervisor: "Dr. Sebastiano Bernuzzi"
+    supervisor_url: "https://www.tpi.uni-jena.de/~bernuzzi/"
+    supervisor_label: "Advisor"
+    bullets:
+      - "Thesis: Machine Learning for Gravitational Waves"
+      - "Developing a machine learning-based gravitational waveform model mlgw_bns_HOM incorporating higher-order modes and precession effects to reduce parameter estimation runtime"
+      - "Designed a pipeline enabling training data generation, model training, and testing on standard CPUs, eliminating the need for GPUs or high-performance computing"
+
+  - dates: "October 2023 - July 2024"
+    role: "ML Research Assistant"
+    institution: "Max Planck Institute for Biogeochemistry"
+    institution_url: "https://www.bgc-jena.mpg.de/"
+    supervisor: "Dr. Nuno Carvalhais"
+    supervisor_url: "https://www.bgc-jena.mpg.de/person/121289/2206"
+    supervisor_label: "Advisor"
+    bullets:
+      - "Contributed to the EarthNet Initiative by leveraging high-resolution satellite imagery to develop data-driven impact early warning systems for droughts and heat waves"
+      - "Conducted research on spatio-temporal land surface forecasting using 3D and (2+1)D CNNs"
+      - "Achieved a 50% reduction in training time compared to best models while maintaining competitive performance metrics"
+
+  - dates: "July 2019 - May 2022"
+    role: "BSc in Physics"
+    institution: "Birla Institute of Technology, Mesra"
+    institution_url: "https://www.bitmesra.ac.in/"
+    supervisor: "Dr. Uma Papnoi & Dr. Farruh Atamurotov"
+    supervisor_url: "https://scholar.google.com/citations?user=JeLsl_4AAAAJ&hl=en"
+    bullets:
+      - "Theoretical astrophysics; first peer-reviewed publication on thermodynamics and gravitational lensing of charged black holes in perfect fluid dark matter."
+
+publications:
+  - authors: "Uma Papnoi, Farruh Atamurotov, Hemwati Nandan, Prasoon Pandey, G. Mustafa, and Ikhtiyor Saidov"
+    highlight_author: "Prasoon Pandey"
+    title: "Thermodynamics and lensing of charged black hole surrounded by perfect fluid dark matter"
+    venue: "Physics of the Dark Universe 46 (2024)"
+    doi: "10.1016/j.dark.2024.101612"
