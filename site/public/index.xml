@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Hi, I am Prasoon!</title>
-    <link>https://ppandey10.github.io/personal/</link>
+    <link>http://localhost:1313/personal/</link>
     <description>Recent content in Home on Hi, I am Prasoon!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ppandey10.github.io/personal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World!</title>
-      <link>https://ppandey10.github.io/personal/blogs/29/05/2026/hello-world/</link>
+      <link>http://localhost:1313/personal/blogs/29/05/2026/hello-world/</link>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://ppandey10.github.io/personal/blogs/29/05/2026/hello-world/</guid>
+      <guid>http://localhost:1313/personal/blogs/29/05/2026/hello-world/</guid>
       <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h2&gt;&#xA;&lt;p&gt;This is a test blog post.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# here is test code&#xA;import os&#xA;import numpy as np&#xA;import matplotlib.pyplot as plt&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;latex&#34;&gt;LaTeX&lt;/h2&gt;&#xA;&lt;p&gt;Here is an example of inline LaTeX: $E = mc^2$.&lt;/p&gt;&#xA;&lt;p&gt;Test for display math:&lt;/p&gt;&#xA;$$&#xA;{\sqrt {n}}\left(\left({\frac {1}{n}}\sum _{i=1}^{n}X_{i}\right)-\mu \right)\ {\xrightarrow {d}}\ N\left(0,\sigma ^{2}\right)&#xA;$$</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://ppandey10.github.io/personal/about/</link>
+      <link>http://localhost:1313/personal/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ppandey10.github.io/personal/about/</guid>
+      <guid>http://localhost:1313/personal/about/</guid>
       <description>&lt;p&gt;I am Prasoon Pandey, an PhD student in &lt;a href=&#34;https://www.leibniz-fli.de/research/research-groups/research-groups-at-fli/d%C3%B6nertas-group&#34;&gt;Dr. Melike Dönertaş’&lt;/a&gt; group at the &lt;a href=&#34;https://www.leibniz-fli.de/&#34;&gt;Fritz Lipmann Institute&lt;/a&gt;, where I work on the systems biology of aging.&lt;/p&gt;&#xA;&lt;p&gt;I completed my Bachelor’s degree in Physics at the &lt;a href=&#34;https://www.bitmesra.ac.in/&#34;&gt;Birla Institute of Technology, Mesra&lt;/a&gt;. During this time, I was introduced to theoretical astrophysics and developed a deep interest in statistics, data science, and mathematical modeling. I worked with &lt;a href=&#34;https://scholar.google.com/citations?user=JeLsl_4AAAAJ&amp;amp;hl=en&#34;&gt;Dr. Uma Papnoi&lt;/a&gt; and &lt;a href=&#34;https://scholar.google.com/citations?user=7-XPshgAAAAJ&amp;amp;hl=ru&#34;&gt;Dr. Farruh Atamurotov&lt;/a&gt;, leading to my first peer-reviewed &lt;a href=&#34;https://doi.org/10.1016/j.dark.2024.101612&#34;&gt;publication&lt;/a&gt; on the thermodynamics and gravitational lensing properties of charged black holes in perfect fluid dark matter.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Research</title>
-      <link>https://ppandey10.github.io/personal/research/</link>
+      <link>http://localhost:1313/personal/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ppandey10.github.io/personal/research/</guid>
+      <guid>http://localhost:1313/personal/research/</guid>
       <description>&lt;p&gt;This page highlights two research directions: my current work on &lt;a href=&#34;#aging-and-longevity&#34;&gt;Aging and Longevity&lt;/a&gt;, and my previous MSc research in &lt;a href=&#34;#msc-thesis&#34;&gt;Gravitational Waves&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aging-and-longevity&#34;&gt;Aging and Longevity&lt;/h2&gt;&#xA;&lt;p&gt;Over the past few months, I have been working with &lt;a href=&#34;https://donertas-group.github.io/people/&#34;&gt;Dr. Mark Olenik&lt;/a&gt; and &lt;a href=&#34;https://donertas-group.github.io/people/&#34;&gt;Dr. Melike Dönertaş&lt;/a&gt; on a project aimed at understanding the stochastic nature of aging.&lt;/p&gt;&#xA;&lt;p&gt;Chronological age simply measures the time elapsed since birth. Aging, however, refers to the progressive decline in biological function that increases vulnerability to disease and death. Quantifying this process, often described as estimating an individual’s biological age, is central to understanding age-related diseases and designing interventions that promote healthy longevity. One widely used framework for this purpose is the concept of an aging clock.&lt;/p&gt;</description>
     </item>
   </channel>
