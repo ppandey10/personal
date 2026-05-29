@@ -40,7 +40,7 @@
   <div class="cv-panel">
     {{ with $pos.bullets }}
     <ul class="cv-bullets">
-      {{ range . }}<li>{{ . }}</li>{{ end }}
+      {{ range . }}<li>{{ . | safeHTML }}</li>{{ end }}
     </ul>
     {{ else }}
     <p class="cv-description">{{ $pos.description }}</p>

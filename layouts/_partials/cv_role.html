@@ -12,7 +12,7 @@
   {{ with $role.bullets }}
   <div class="cv-role-panel">
     <ul class="cv-bullets">
-      {{ range . }}<li>{{ . }}</li>{{ end }}
+      {{ range . }}<li>{{ . | safeHTML }}</li>{{ end }}
     </ul>
   </div>
   {{ end }}
