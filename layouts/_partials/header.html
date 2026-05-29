@@ -9,12 +9,14 @@
     {{ partial "head_custom.html" . }}
   </head>
 
-  <body>
-    <nav>
-    <ul class="menu">
-      {{ range .Site.Menus.main }}
-      <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-      {{ end }}
-    </ul>
-    <hr/>
-    </nav>
+  <body{{ with .File }} class="page-{{ .ContentBaseName }}"{{ end }}>
+    <div class="site">
+      <header class="site-header">
+        <nav class="site-nav" aria-label="Main">
+          <ul class="menu">
+            {{ range .Site.Menus.main }}
+            <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </nav>
+      </header>

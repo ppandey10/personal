@@ -10,7 +10,6 @@
   font-family: "Linux Biolinum";
   src: url("fonts/LinuxBiolinumOB.woff2") format("woff2");
   font-weight: 600;
-  /* Try 600 if 700 doesn't work */
   font-style: normal;
   font-display: swap;
 }
@@ -23,17 +22,16 @@
   font-display: swap;
 }
 
-/* body {
-  font-family: "Linux Biolinum", sans-serif;
-  font-weight: 400;
-} */
-
-body {
-  font-family: Libertinus Sans, Candara, Calibri, Arial, sans-serif;
-  font-size: 100%;
+body,
+.page-title,
+.page-content,
+main,
+.menu a,
+.site-footer {
+  font-family: "Libertinus Sans", Candara, Calibri, Arial, sans-serif;
 }
 
-code {
+code,
+pre {
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: 85%;
 }

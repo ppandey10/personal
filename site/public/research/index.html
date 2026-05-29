@@ -6,80 +6,79 @@
     <title>Research | Hi, I am Prasoon!</title>
     <link rel="stylesheet" href="/personal/css/style.css" />
     <link rel="stylesheet" href="/personal/css/fonts.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-<link rel="icon" type="image/png" href="/personal/%20imgs/icon.png">
+    <link rel="icon" type="image/png" href="/personal/imgs/icon.png">
 <link href="https://fonts.googleapis.com/css2?family=Libertinus+Sans:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/fontawesome.min.css" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/brands.min.css" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous" />
   </head>
 
-  <body>
-    <nav>
-    <ul class="menu">
-      
-      <li><a href="/personal/">Home</a></li>
-      
-      <li><a href="/personal/about/">About</a></li>
-      
-      <li><a href="/personal/research/">Research</a></li>
-      
-      <li><a href="/personal/blogs/">Blogs</a></li>
-      
-    </ul>
-    <hr/>
-    </nav>
+  <body class="page-research">
+    <div class="site">
+      <header class="site-header">
+        <nav class="site-nav" aria-label="Main">
+          <ul class="menu">
+            
+            <li><a href="/personal/">Home</a></li>
+            
+            <li><a href="/personal/about/">About</a></li>
+            
+            <li><a href="/personal/research/">Research</a></li>
+            
+            <li><a href="/personal/blogs/">Blogs</a></li>
+            
+          </ul>
+        </nav>
+      </header>
 
-<div class="article-meta">
-    <h1><span class="title">Research</span></h1>
-    
-    
-</div>
+<header class="page-header">
+  <h1 class="page-title">Research</h1>
+  
+</header>
 
-<main>
-    <h2 id="aging-and-longevity">Aging and Longevity</h2>
-<p>Over the past few months, I have been working with <a href="https://donertas-group.github.io/author/mark-olenik/">Dr. Mark Olenik</a> and <a href="https://www.leibniz-fli.de/research/research-groups/doenertas">Dr. Melike Dönertaş</a> on a project aimed at understanding the stochastic nature of aging.</p>
-<p>Chronological age simply measures the time elapsed since birth. Aging, however, refers to the progressive decline in biological function that increases vulnerability to disease and death. Quantifying this process, often described as estimating an individual’s <strong>biological age</strong>, is central to understanding age-related diseases and designing interventions that promote healthy longevity. One widely used framework for this purpose is the concept of an <strong>aging clock</strong>.</p>
-<p>A key open question in the development of aging clocks is whether aging is fundamentally deterministic or whether it emerges from stochastic, cumulative molecular changes over time<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Our work addresses this question by developing a dynamical model of DNA methylation that explicitly incorporates stochasticity. The goal is to understand how variability accumulates across CpG sites and how this accumulation gives rise to measurable age acceleration in individuals.</p>
+<main class="page-content">
+    <p>This page highlights two research directions: my current work on <a href="#aging-and-longevity">Aging and Longevity</a>, and my previous MSc research in <a href="#msc-thesis">Gravitational Waves</a>.</p>
+<h2 id="aging-and-longevity">Aging and Longevity</h2>
+<p>Over the past few months, I have been working with <a href="https://donertas-group.github.io/people/">Dr. Mark Olenik</a> and <a href="https://donertas-group.github.io/people/">Dr. Melike Dönertaş</a> on a project aimed at understanding the stochastic nature of aging.</p>
+<p>Chronological age simply measures the time elapsed since birth. Aging, however, refers to the progressive decline in biological function that increases vulnerability to disease and death. Quantifying this process, often described as estimating an individual’s biological age, is central to understanding age-related diseases and designing interventions that promote healthy longevity. One widely used framework for this purpose is the concept of an aging clock.</p>
+<p>A key open question in the development of aging clocks is whether aging is fundamentally deterministic or whether it emerges from stochastic, cumulative molecular changes over time1. Our work addresses this question by developing a dynamical model of DNA methylation that explicitly incorporates stochasticity. The goal is to understand how variability accumulates across CpG sites and how this accumulation gives rise to measurable age acceleration in individuals.</p>
 <p>By combining mechanistic modeling with statistical learning approaches, we aim to bridge the gap between molecular-level noise and population-level aging patterns.</p>
-<p>#TODO: UPDATE!</p>
 <h2 id="msc-thesis">MSc Thesis</h2>
-<p>The main focus of my thesis was the development of a machine-learning-based surrogate model for rapid and accurate waveform generation in gravitational-wave (GW) data analysis of compact binary mergers.</p>
+<p>I built a machine-learning surrogate to speed up gravitational-wave waveform generation for binary neutron star mergers.</p>
 <p>Extracting physical source parameters from a detected GW signal requires sampling the posterior probability distribution over a high-dimensional parameter space. Each likelihood evaluation involves generating an accurate waveform model that simulates the signal emitted by a compact binary system. In practice, analyzing a single event can require tens of millions of waveform evaluations, making waveform generation the dominant computational bottleneck.</p>
 <p>This challenge will intensify with next-generation detectors such as <a href="https://www.et-gw.eu/">Einstein Telescope</a> and <a href="https://cosmicexplorer.org/">Cosmic Explorer</a>, which are expected to detect orders of magnitude more events than current facilities like <a href="https://www.ligo.caltech.edu/">LIGO</a> and <a href="https://www.virgo-gw.eu/">Virgo</a>. Improving waveform generation speed is therefore essential to fully exploit the scientific potential of upcoming large-scale GW experiments.</p>
 <p>A promising strategy is the construction of machine-learning-based surrogate models that emulate expensive waveform generators. While significant progress has been made for binary black hole systems, binary neutron stars (BNS) present additional complexity due to tidal effects, matter interactions, and richer waveform structure.</p>
-<p>Building upon the published framework <a href="https://github.com/jacopok/mlgw_bns"><code>mlgw_bns</code></a>, I developed <a href="https://github.com/ppandey10/mlgw_bns_HOM"><code>mlgw_bns_HOM</code></a>, a neural-network-based surrogate model designed to accelerate the generation of Effective-One-Body (EOB) waveforms for binary neutron stars.</p>
+<p>Building upon the published <code>mlgw_bns</code> framework, I developed <a href="https://github.com/ppandey10/mlgw_bns_HOM"><code>mlgw_bns_HOM</code></a>, a neural-network-based surrogate model designed to accelerate the generation of Effective-One-Body (EOB) waveforms for binary neutron stars.</p>
 <p>My contributions focused on:</p>
 <ul>
 <li>Incorporating <strong>higher-order modes</strong> beyond the dominant quadrupole emission</li>
 <li>Extending the model to include <strong>spin-precession effects</strong></li>
 <li>Ensuring robust generalization across the relevant parameter space</li>
 </ul>
-<p>By combining neural networks with data compression techniques and leveraging the analytical structure of the underlying waveform model, the surrogate achieves substantial computational speed-ups while maintaining high fidelity to the original EOB waveforms.</p>
 <p>This work contributes to enabling scalable Bayesian inference for future high-rate GW observations.</p>
-<p>#TODO: UPDATE!</p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>Issa J. P. (2014). Aging and epigenetic drift: a vicious cycle. <em>The Journal of Clinical Investigation</em>, 124(1), 24–29. <a href="https://doi.org/10.1172/JCI69735">https://doi.org/10.1172/JCI69735</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 
 </main>
 
-  <footer>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
-<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/math-code.min.js" defer></script>
-<script src="//cdn.jsdelivr.net/npm/katex/dist/katex.min.js" defer></script>
-<script src="//cdn.jsdelivr.net/npm/katex/dist/contrib/auto-render.min.js" defer></script>
-<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/render-katex.js" defer></script>
+      <footer class="site-footer">
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+<script>
+renderMathInElement(document.body, {
+  delimiters: [
+    {left: "$$", right: "$$", display: true},
+    {left: "\\[", right: "\\]", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+  ],
+  throwOnError: false
+});
+</script>
 
-<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.min.js" defer></script>
-
-  
-  <hr/>
-  © <a href="https://ppandey10.github.io/personal/">Prasoon Pandey</a> 2025 &ndash; 2026 | <a href="https://github.com/ppandey10">Github</a> | <a href="https://x.com/panprasoon">Twitter</a>
-  
-  </footer>
+        
+        <p class="site-footer-text">© <a href="https://ppandey10.github.io/personal/">Prasoon Pandey</a> 2025 &ndash; 2026 | <a href="https://github.com/ppandey10">Github</a> | <a href="https://x.com/panprasoon">Twitter</a></p>
+        
+      </footer>
+    </div>
   </body>
 </html>
+

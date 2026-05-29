@@ -6,49 +6,6 @@
     <description>Recent content in Tags on Hi, I am Prasoon!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ppandey10.github.io/personal/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Tutorial</title>
-      <link>https://ppandey10.github.io/personal/tags/tutorial/</link>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://ppandey10.github.io/personal/tags/tutorial/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blogdown</title>
-      <link>https://ppandey10.github.io/personal/tags/blogdown/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://ppandey10.github.io/personal/tags/blogdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Markdown</title>
-      <link>https://ppandey10.github.io/personal/tags/markdown/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://ppandey10.github.io/personal/tags/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MathJax</title>
-      <link>https://ppandey10.github.io/personal/tags/mathjax/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://ppandey10.github.io/personal/tags/mathjax/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pandoc</title>
-      <link>https://ppandey10.github.io/personal/tags/pandoc/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://ppandey10.github.io/personal/tags/pandoc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RStudio</title>
-      <link>https://ppandey10.github.io/personal/tags/rstudio/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://ppandey10.github.io/personal/tags/rstudio/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

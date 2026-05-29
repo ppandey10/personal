@@ -1,3 +1,14 @@
-# Website
+# Personal Website
 
-This is my personal website which is built on one of the Hugo themes. You can find the theme [here](https://github.com/yihui/hugo-xmin).
+Personal website of [Prasoon Pandey](https://ppandey10.github.io/personal/), built with [Hugo](https://gohugo.io/).
+
+## Local development
+
+```bash
+cd site
+hugo server
+```
+
+## Deploy
+
+The site is deployed automatically to GitHub Pages on pushes to `main`.

@@ -1,15 +1,13 @@
 baseurl: "https://ppandey10.github.io/personal/"  # please update this to your actual URL
 languageCode: "en-us"
 title: "Hi, I am Prasoon!"
-theme: "hugo-xmin"
+theme: "personal"
 googleAnalytics: ""
 disqusShortname: ""
-ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+ignoreFiles: ["_cache$"]
 footnotereturnlinkcontents: "↩"
 
 permalinks:
-  note: "/note/:day/:month/:year/:slug/"
-  post: "/post/:day/:month/:year/:slug/"
   blogs: "/blogs/:day/:month/:year/:slug/"
 
 menu:
@@ -28,7 +26,7 @@ menu:
       weight: 4
 
 params:
-  description: "A website built through Hugo and blogdown."
+  description: "Personal website of Prasoon Pandey."
   footer: "&copy; [Prasoon Pandey](https://ppandey10.github.io/personal/) 2025 -- {Year} | [Github](https://github.com/ppandey10) | [Twitter](https://x.com/panprasoon)"
 
 markup:
@@ -49,3 +47,5 @@ markup:
           inline:
           - - \(
             - \)
+          - - $
+            - $

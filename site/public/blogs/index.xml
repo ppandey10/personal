@@ -6,14 +6,14 @@
     <description>Recent content in Blogs on Hi, I am Prasoon!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ppandey10.github.io/personal/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World!</title>
-      <link>https://ppandey10.github.io/personal/blogs/01/03/2026/another-note/</link>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://ppandey10.github.io/personal/blogs/01/03/2026/another-note/</guid>
-      <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h2&gt;&#xA;&lt;p&gt;This is a test blog post.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# here is test code&#xA;import os&#xA;import numpy as np&#xA;import matplotlib.pyplot as plt&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;latex&#34;&gt;LaTeX&lt;/h2&gt;&#xA;&lt;p&gt;Here is an example of inline LaTeX: &lt;code&gt;$E = mc^2$&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Test for display math:&#xA;&lt;code&gt;$${\sqrt {n}}\left(\left({\frac {1}{n}}\sum _{i=1}^{n}X_{i}\right)-\mu \right)\ {\xrightarrow {d}}\ N\left(0,\sigma ^{2}\right)$$&lt;/code&gt;&lt;/p&gt;</description>
+      <link>https://ppandey10.github.io/personal/blogs/29/05/2026/hello-world/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://ppandey10.github.io/personal/blogs/29/05/2026/hello-world/</guid>
+      <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h2&gt;&#xA;&lt;p&gt;This is a test blog post.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# here is test code&#xA;import os&#xA;import numpy as np&#xA;import matplotlib.pyplot as plt&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;latex&#34;&gt;LaTeX&lt;/h2&gt;&#xA;&lt;p&gt;Here is an example of inline LaTeX: $E = mc^2$.&lt;/p&gt;&#xA;&lt;p&gt;Test for display math:&lt;/p&gt;&#xA;$$&#xA;{\sqrt {n}}\left(\left({\frac {1}{n}}\sum _{i=1}^{n}X_{i}\right)-\mu \right)\ {\xrightarrow {d}}\ N\left(0,\sigma ^{2}\right)&#xA;$$</description>
     </item>
   </channel>
 </rss>
