@@ -10,7 +10,7 @@ Over the past few months, I have been working with [Dr. Mark Olenik](https://don
 
 Chronological age simply measures the time elapsed since birth. Aging, however, refers to the progressive decline in biological function that increases vulnerability to disease and death. Quantifying this process, often described as estimating an individual’s biological age, is central to understanding age-related diseases and designing interventions that promote healthy longevity. One widely used framework for this purpose is the concept of an aging clock.
 
-A key open question in the development of aging clocks is whether aging is fundamentally deterministic or whether it emerges from stochastic, cumulative molecular changes over time1. Our work addresses this question by developing a dynamical model of DNA methylation that explicitly incorporates stochasticity. The goal is to understand how variability accumulates across CpG sites and how this accumulation gives rise to measurable age acceleration in individuals.
+A key open question in the development of aging clocks is whether aging is fundamentally deterministic or whether it emerges from stochastic, cumulative molecular changes over time[^1]. Our work addresses this question by developing a dynamical model of DNA methylation that explicitly incorporates stochasticity. The goal is to understand how variability accumulates across CpG sites and how this accumulation gives rise to measurable age acceleration in individuals.
 
 By combining mechanistic modeling with statistical learning approaches, we aim to bridge the gap between molecular-level noise and population-level aging patterns.
 
