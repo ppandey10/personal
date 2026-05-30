@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/personal/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=personal/livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>404 Page not found | Hi, I am Prasoon!</title>
     <link rel="stylesheet" href="/personal/css/style.css" />
     <link rel="stylesheet" href="/personal/css/fonts.css" />
     <link rel="icon" type="image/png" href="/personal/imgs/icon.png">
-<link href="https://fonts.googleapis.com/css2?family=Libertinus+Sans:wght@400;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/fontawesome.min.css" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/brands.min.css" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" crossorigin="anonymous" />
   </head>
 
   <body>
@@ -35,19 +34,23 @@
 404 NOT FOUND
 
       <footer class="site-footer">
-        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
-<script>
-renderMathInElement(document.body, {
-  delimiters: [
-    {left: "$$", right: "$$", display: true},
-    {left: "\\[", right: "\\]", display: true},
-    {left: "$", right: "$", display: false},
-    {left: "\\(", right: "\\)", display: false}
-  ],
-  throwOnError: false
-});
+        <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  },
+  output: {
+    font: 'mathjax-pagella',
+    scale: 1
+  },
+  chtml: {
+    matchFontHeight: false
+  }
+};
 </script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml-nofont.js" crossorigin="anonymous"></script>
 
         
         <p class="site-footer-text">© <a href="https://ppandey10.github.io/personal/">Prasoon Pandey</a> 2025 &ndash; 2026 | <a href="https://github.com/ppandey10">Github</a> | <a href="https://x.com/panprasoon">Twitter</a></p>

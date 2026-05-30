@@ -1,13 +1,17 @@
-<script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
 <script>
-renderMathInElement(document.body, {
-  delimiters: [
-    {left: "$$", right: "$$", display: true},
-    {left: "\\[", right: "\\]", display: true},
-    {left: "$", right: "$", display: false},
-    {left: "\\(", right: "\\)", display: false}
-  ],
-  throwOnError: false
-});
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  },
+  output: {
+    font: 'mathjax-pagella',
+    scale: 1
+  },
+  chtml: {
+    matchFontHeight: false
+  }
+};
 </script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml-nofont.js" crossorigin="anonymous"></script>

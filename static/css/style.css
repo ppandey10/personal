@@ -325,8 +325,13 @@ main img {
   margin: 1rem auto;
 }
 
-.page-content .katex-display,
-main .katex-display {
+.page-content mjx-container,
+main mjx-container {
+  font-size: 1em !important;
+}
+
+.page-content mjx-container[display="true"],
+main mjx-container[display="true"] {
   margin: 1.25rem 0;
   overflow-x: auto;
   overflow-y: hidden;
