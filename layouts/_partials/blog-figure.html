@@ -1,0 +1,14 @@
+{{- $src := .src -}}
+{{- $alt := .alt | default "" -}}
+{{- $caption := .caption | default "" -}}
+{{- with urls.Parse $src -}}
+  {{- if not .IsAbs -}}
+    {{- $src = $src | relURL -}}
+  {{- end -}}
+{{- end -}}
+<figure class="blog-figure-plain">
+  <img src="{{ $src | safeURL }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+  {{- with $caption -}}
+  <figcaption>{{ . }}</figcaption>
+  {{- end -}}
+</figure>

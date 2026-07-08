@@ -1,0 +1,40 @@
+{{ partial "header.html" . }}
+
+{{ $blogsRoot := site.GetPage "section" "blogs" }}
+
+<header class="page-header">
+  <h1 class="page-title">{{ .Title | markdownify }}</h1>
+</header>
+
+<main class="page-content">
+  {{ .Content }}
+
+  {{ if eq . $blogsRoot }}
+  <ul class="post-list folder-list">
+    {{ range .Sections.ByWeight }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+      {{ $abstract := .Params.description | default .Params.abstract | default .Summary }}
+      {{ with $abstract }}
+      <p class="post-abstract">{{ . | plainify }}</p>
+      {{ end }}
+    </li>
+    {{ end }}
+  </ul>
+  {{ else }}
+  <ul class="post-list">
+    {{ range .RegularPages.ByDate.Reverse }}
+    <li>
+      <span class="date">{{ .Date.Format "02/01/2006" }}</span>
+      <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+      {{ $abstract := .Params.abstract | default .Params.summary | default .Summary }}
+      {{ with $abstract }}
+      <p class="post-abstract">{{ . | plainify }}</p>
+      {{ end }}
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</main>
+
+{{ partial "footer.html" . }}

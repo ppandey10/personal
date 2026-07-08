@@ -31,8 +31,13 @@ params:
 
 markup:
   highlight:
-    codeFences: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    noClasses: false
   goldmark:
+    parser:
+      wrapStandAloneImageWithinParagraph: false
     renderer:
       unsafe: true
     extensions:

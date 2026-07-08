@@ -1,0 +1,18 @@
+{{- $alt := .PlainText -}}
+{{- $caption := .Title | plainify -}}
+{{- if and .IsBlock (not $caption) -}}
+  {{- $caption = $alt -}}
+{{- end -}}
+{{- $src := .Destination -}}
+{{- with urls.Parse $src -}}
+  {{- if not .IsAbs -}}
+    {{- $src = $src | relURL -}}
+  {{- end -}}
+{{- end -}}
+{{- if .IsBlock -}}
+<div class="blog-figure-single">
+{{- partial "blog-figure.html" (dict "src" $src "alt" $alt "caption" $caption) -}}
+</div>
+{{- else -}}
+<img src="{{ $src | safeURL }}" alt="{{ $alt }}" loading="lazy" decoding="async">
+{{- end -}}

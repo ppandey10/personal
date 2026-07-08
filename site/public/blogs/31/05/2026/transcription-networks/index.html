@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Transcription Networks | Hi, I am Prasoon!</title>
+    <link rel="stylesheet" href="/personal/css/style.css" />
+    <link rel="stylesheet" href="/personal/css/fonts.css" />
+    <link rel="icon" type="image/png" href="/personal/imgs/icon.png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/fontawesome.min.css" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/brands.min.css" crossorigin="anonymous" />
+  </head>
+
+  <body class="page-31-05-2026-transcription-networks">
+    <div class="site">
+      <header class="site-header">
+        <nav class="site-nav" aria-label="Main">
+          <ul class="menu">
+            
+            <li><a href="/personal/">Home</a></li>
+            
+            <li><a href="/personal/cv/">CV</a></li>
+            
+            <li><a href="/personal/research/">Research</a></li>
+            
+            <li><a href="/personal/blogs/">Blogs</a></li>
+            
+          </ul>
+        </nav>
+      </header>
+
+<header class="page-header">
+  <h1 class="page-title">Transcription Networks</h1>
+  
+  <p class="page-meta">
+    <span class="author">Prasoon Pandey</span>
+    <span class="meta-sep" aria-hidden="true"> · </span>
+    <time datetime="2026-05-31">31 May 2026</time>
+  </p>
+  
+</header>
+
+<main class="page-content blog-content">
+    <p>Upon starting my PhD, one of the first researchers I was introduced to was <a href="https://www.weizmann.ac.il/mcb/alon/group">Uri Alon</a> and his work on systems biology. I was immediately struck by his ideas of combining simple yet affective mathematical models for what we will dicuss today: transcription networks.</p>
+<p>This post will be a walkthrough of the ideas dicussed in the chapter 1 of his book <a href="https://doi.org/10.1201/9780429283321">An Introduction to Systems Biology</a>. As I am not a biologist, I&rsquo;ll try my level best to explain the ideas as I understand, and build the intuition from the ground up.</p>
+<h1 id="dna-genome-and-genes---what-is-the-difference">DNA, Genome, and Genes - What is the Difference?</h1>
+<p>These three terms are often heared quite frequently in biological sciences and most of the time, they are used interchangeably. However, they are different concepts and have different meanings but can be put under the same umbrella. The purpose of this section is to develop a sense of what they are and their relationship. We need to think of them not as a chain but as nested levels of organization.</p>
+<h2 id="dna">DNA</h2>
+<p>Every cell contains a coding material that is called DNA. It is a double helix structure composed of two strands of nucleotides. Each nucleotide is composed of a sugar, a phosphate group, and a nitrogenous base. The four nitrogenous bases are adenine (A), thymine (T), cytosine (C), and guanine (G). These bases pair up to form the double helix structure. It is this materical that contains the genetic (or biological) information of an organism.</p>
+<h2 id="genome">Genome</h2>
+<p>Now genome is not separate thing from DNA, it is the <strong>complete collection</strong> of all the DNA in a cell, organised into a structure called the chromosomes. In humans, we have 46 chromosomes which contain about 3 billion base pairs of DNA in total.</p>
+<p>This genome is the <strong>full instruction manual</strong> for an organism. It contains the instructions for how to build and function the organism.</p>
+<h2 id="genes">Genes</h2>
+<p>A gene is a specific functional region of the DNA within the genome that encodes instructions for building a specific protein. Here is where things get interesting: Humans have approximately 20,000 genes which makes about 2% of the entire genome. The rest includes regulatory regions that control when genes turn on and off, repetitive sequences, and large stretches whose function is still not fully understood.</p>
+<p>I have added a figure below to properly illustrate all the layers.</p>
+<!-- <div class="blog-figure-row">
+<figure class="blog-figure-plain">
+  <img src="/personal/imgs/gene_genome_dna.jpg" alt="DNA double helix" loading="lazy" decoding="async"><figcaption>DNA: the double helix that stores genetic information.</figcaption></figure>
+
+<figure class="blog-figure-plain">
+  <img src="/personal/imgs/gene_genome_dna.jpg" alt="Genome and genes" loading="lazy" decoding="async"><figcaption>Genome and genes: nested levels of organization within DNA.</figcaption></figure>
+
+</div>
+ -->
+<div class="blog-figure-single"><figure class="blog-figure-plain">
+  <img src="/personal/imgs/gene_genome_dna.jpg" alt="DNA_genome_gene" loading="lazy" decoding="async"><figcaption>Source: https://www.cbehx.co.uk/</figcaption></figure>
+</div><h1 id="the-cognitive-problem-of-the-cell">The Cognitive Problem of the Cell</h1>
+<p>This phrase was popularised by Uri Alon in his book. Traditionally, biology looked at cells through a purely biochemical lens: a signal hits a receptor, a cascade of proteins shifts, and a gene gets turned on. It sounds like simple dominoes knocking each other over.</p>
+<p>However, Alon looked at a single cell (like an E. coli bacterium) from a <strong>engineering and physics perspective</strong>, where it is essentially dealing with a fundamental computation problem. It lives in a highly unpredictable environment where making a mistake means death. It has to look at the world, compute an answer, and make a choice.</p>
+<p>Instead of thoughts, the cell uses <strong>Transcription Factors (TFs)</strong> as physical symbols to represent the outside world.</p>
+<ul>
+<li>When a specific sugar is outside the cell, a specific TF rapidly flips from an &ldquo;inactive&rdquo; to an &ldquo;active&rdquo; molecular shape.</li>
+<li>These TFs bind to DNA, acting exactly like biological logic gates (AND, OR, NOT).</li>
+<li>The network integrates these inputs to calculate the precise rate of protein production needed.</li>
+</ul>
+<p>This is a very simplified view of the problem, but it captures the essence of what Alon is trying to say. The cell is not just a bunch of chemicals reacting with each other, it is a complex network of interactions that is trying to compute a solution to a problem.</p>
+<h1 id="transcription-networks">Transcription Networks</h1>
+<p>This is heart of our discussion in this post. The problem of the cell described above - the challenge of sensing, filtering noise, and making decision - is solved through transcription networks. While the &ldquo;problem&rdquo; gives us the abstract logical framework, transcription networks give us the actual structural map of how these TFs and genes are physically wired together.</p>
+<p>To understand how this biological circuit executes its programming, we must look at the physical mechanics under the hood. This brings us to the foundation of all modern molecular biology: the <strong>Central Dogma</strong>.</p>
+<h2 id="central-dogma">Central Dogma</h2>
+<p>The Central Dogma describes the one-way flow of biological information inside a cell. If the genome is the master instruction manual, the cell cannot use it directly to perform actions. It must translate that static code into physical, working proteins. This happens in two functional steps:</p>
+<ol>
+<li><strong>Transcription</strong>: The gene is copied into <strong>a disposable mRNA molecule</strong> by a protein machine called RNA polymerase (RNAp), a process called transcription.</li>
+<li><strong>Translation</strong>: The mRNA is translated into a protein by a protein machine called ribosome, a process called translation.</li>
+</ol>
+<p>So the flow is: DNA → mRNA → Protein. Clean, directional, irreversible!</p>
+<p><strong>Problem:</strong> The cell has roughly 20,000 genes. It cannot transcribe all of them at full rate all the time. This would be energetically ruinous, and more importantly, wrong. An E. coli has no business producing lactose-digesting enzymes when there is no lactose in the environment. <strong>The cell needs a way to control which genes get transcribed, when, and at what rate.</strong> The Central Dogma tells us the direction of information flow; it says nothing about how that flow is gated.</p>
+<p>To understand the gating mechanism, we need to look more closely at the physical structure of a gene itself.</p>
+<h2 id="gene-structure-and-rate-control">Gene Structure and Rate Control</h2>
+<p>The gene on the DNA is physically divided into two functional regions:</p>
+<ol>
+<li><strong>Promoter</strong>: The rate at which the gene is transcribed, the number of mRNA produced per unit time, is controlled by a regulatory region of DNA that precedes the coding region, called the promoter.</li>
+<li><strong>Coding</strong>: This is the actual genetic code that holds the instructions for making a protein. It is the region of the gene that is responsible for the translation of the gene.</li>
+</ol>
+<p>The promoter region in itself has a small region (a specific DNA sequence) called the <em>binding site</em> (see figure below) where RNAp binds (or docks) then it slides down the coding region and copies the genetic code into an mRNA molecule. The tighter the chemical affinity between RNAp and this binding site, the more frequently RNAp lands and therefore the higher the transcription rate.</p>
+<div class="blog-figure-single"><figure class="blog-figure-plain">
+  <img src="/personal/imgs/transcription_translation.png" alt="transcription_translation" loading="lazy" decoding="async"><figcaption>Source: Alon, U. (2019). An Introduction to Systems Biology: Design Principles of Biological Circuits (2nd ed.). Chapman and Hall/CRC. https://doi.org/10.1201/9780429283321</figcaption></figure>
+</div><p>The promoter essentially acts as switch that controls the flow of information dynamically, in response to the environment. <em>This is precisely where TFs come in.</em></p>
+<h2 id="transcription-factors">Transcription Factors</h2>
+<p>A Transcription Factor is a specialized protein floating around inside the cell. It has a highly specific shape that allows it to grip onto the binding site in a gene&rsquo;s promoter — and in doing so, it either helps RNAp bind (activation) or blocks it from binding (repression).</p>
+<p>Crucially, TFs are not static. They exist in two states, and the environment determines which state they are in:</p>
+<ul>
+<li><strong>Inactive State</strong>: The TF is shaped in a way that it cannot bind to the DNA. It just floats around aimlessly.</li>
+<li><strong>Active State</strong>: An environmental signal (like a sugar molecule binding to it, or a phosphate group being attached due to stress) causes the TF to instantly snap into a new physical shape. Now, it is &ldquo;sticky&rdquo; for its specific DNA target.</li>
+</ul>
+<p>This is the cell&rsquo;s sensing mechanism. Environmental signals are converted into TF activity states, which in turn control the rate at which specific genes are expressed.</p>
+<div class="blog-figure-single"><figure class="blog-figure-plain">
+  <img src="/personal/imgs/transcription_network.png" alt="Transcription Networks" loading="lazy" decoding="async"><figcaption>Source: Alon, U. (2019). An Introduction to Systems Biology: Design Principles of Biological Circuits (2nd ed.). Chapman and Hall/CRC. https://doi.org/10.1201/9780429283321</figcaption></figure>
+</div><p>The figure above illustrates this idea of a transcription network: <strong>TF proteins are themselves encoded by genes, which are regulated by other TFs, which in turn may be regulated by yet other TFs, and so on.</strong> This recursive web of interactions — TFs regulating genes that produce more TFs — is precisely what we call a transcription network.</p>
+<h1 id="mathematical-formulation">Mathematical Formulation</h1>
+<p>We now have the structural idea of how the transcription network is wired together. Now what we need is a quantitative framework which describes how the network behaves.</p>
+<p>In the network described above, the nodes are genes and arrows represent transcriptional regulation of one gene by the protein product of another gene. An arrow $X \rightarrow Y$ means that the product of gene $X$ is a transcription factor protein that can bind the promoter of gene $Y$ to control the rate at which gene $Y$ is transcribed. The number of molecules of protein $Y$ produced per unit time is a function of the concentration of $X$ in its active form, $X^*$:</p>
+$$
+\begin{equation}
+\frac{dY}{dt} = f(X^*) 
+\tag{1}
+\end{equation}
+$$<p>
+where $f$ is a <em>input function</em> that describes the relationship between the concentration of $X$ in its active form, $X^*$, and the production rate of protein $Y$. This should typically be a monotonic function either increasing or decreasing for activation or repression respectively. A very typical choice for the input function is the Hill function:
+</p>
+$$
+\begin{equation}
+f(X^*) = \frac{X^*}{K_d + X^*}.
+\tag{2}
+\end{equation}
+$$<p>For transcription networks specifically, this takes the form for activators:</p>
+$$
+\begin{equation}
+f(X^*) = \beta \frac{X^{*n}}{K^{n} + X^{*n}}.
+\tag{3}
+\end{equation}
+$$<p>where we have following three parameters:</p>
+<ul>
+<li>$K$ is the <strong>activation coefficient</strong>, and has the units of concentration. It defines the concentration of active $X$ needed to significantly activate expression.</li>
+<li>$n$ is the <strong>Hill coefficient</strong> which is a measure of the steepness of the curve.</li>
+<li>$\beta$ is the <strong>maximal promoter activity</strong> which is reached at high activator concentrations, $X^* \gg K_d$ because at high concentrations, $X^*$ binds the promoter with high probability and stimulates RNAp to produce many mRNAs per unit time.</li>
+</ul>
+<p><strong>IMPORTANT:</strong> For repressors, the input function is:
+</p>
+$$
+\begin{equation}
+f(X^*) = \frac{K^{n}}{K^{n} + X^{*n}}.
+\tag{4}
+\end{equation}
+$$<h2 id="logic-input-functions">Logic Input Functions</h2>
+<p>Sometimes, it&rsquo;s much more useful to approximate the input functions with logical approximations. For example, this could be a step function.</p>
+$$
+\begin{equation}
+f_{\text{activator}}(X^*) = \begin{cases}
+0 & \text{if } X^* < K \\
+\beta & \text{if } X^* \geq K
+\end{cases}
+\tag{5}
+\end{equation}
+$$<p>Similarily, for repressors, we can use a step function:</p>
+$$
+\begin{equation}
+f_{\text{repressor}}(X^*) = \begin{cases}
+\beta & \text{if } X^* < K \\
+0 & \text{if } X^* \geq K
+\end{cases}
+\tag{6}
+\end{equation}
+$$<h2 id="dynamics-of-simple-regulation">Dynamics of Simple Regulation</h2>
+<p>Now that we have the mathematical framework, we can start to explore the dynamics of the transcription network. Just like any other dynamical system, we begin by properly laying the information regarding the syste. We will start with a simple case of a single gene regulated by a single transcription factor.</p>
+<p>Consider a gene that is regulated by a TF with no additional inputs (or with all other inputs and post-transcriptional modes of regulation held constant over time). This transcription interaction is described in the network by $X \rightarrow Y$ which reads &ldquo;transcription factor $X$ regulates gene $Y$.&rdquo; Once $X$ becomes activated by a signal, $Y$ concentration begins to change. Let us calculate the dynamics of the concentration of the gene product, the protein $Y$ and its response time.</p>
+<div class="blog-figure-single"><figure class="blog-figure-plain">
+  <img src="/personal/imgs/tf_activator.png" alt="tf_activators" loading="lazy" decoding="async"><figcaption>Source: Alon, U. (2019). An Introduction to Systems Biology: Design Principles of Biological Circuits (2nd ed.). Chapman and Hall/CRC. https://doi.org/10.1201/9780429283321</figcaption></figure>
+</div><p>In the absence of its input signal, transcription factor $X$ is inactive and $Y$ is not produced. When the signal $S_X$ appears, $X$ rapidly transits to its active form $X^*$ and binds the promoter of gene $Y$. Gene $Y$ begins to be transcribed, and the mRNA is translated, resulting in accumulation of protein $Y$. The cell produces protein $Y$ at a rate $\beta$ (units of concentration per unit time).</p>
+$$
+\begin{equation}
+\frac{dY}{dt} = \beta
+\tag{7}
+\end{equation}
+$$<p>Now, we will add another layer: The production of Y is balanced by two processes, protein degradation (its specific destruction by specialized proteins in the cell) and dilution (the reduction in concentration due to the increase of cell volume during growth). The degradation rate is $\alpha_{deg}$, and the dilution rate is $\alpha_{dil}$, giving a total removal rate (in units of 1/time) of</p>
+$$
+\begin{equation}
+\alpha = \alpha_{deg} + \alpha_{dil}
+\tag{8}
+\end{equation}
+$$<p>The change in the concentration of $Y$ is due to the difference between its production and removal, as described by a dynamic equation:</p>
+$$
+\begin{equation}
+\frac{dY}{dt} = \beta - \alpha Y
+\tag{9}
+\end{equation}
+$$<p>The removal term in the equation $\alpha Y$ is equal to the concentration $Y$ times the probability per unit time that each protein $Y$ is removed, $\alpha$.</p>
+<p>From the equation (9), we can solve for the steady state concentration $Y_{\text{steady}}$:
+</p>
+$$
+\begin{align}
+\frac{dY}{dt} &= 0 \\
+Y_{\text{steady}} &= \frac{\beta}{\alpha}
+\end{align}
+$$<p>The solution to the equation (9) is:
+</p>
+$$
+\begin{equation}
+Y(t) = Y_{\text{steady}}(1 - e^{-\alpha t})
+\tag{10}
+\end{equation}
+$$<p>An important measure for the speed at which $Y$ levels change is the response time. The response time, $T_{1/2}$, is defined as the time to reach halfway between the initial and final levels in a dynamic process.</p>
+<p>We can solve for the response time $T_{1/2}$ by solving the equation (10) for $t$ and setting $Y(t) = Y_{\text{steady}}/2$:</p>
+$$
+\begin{equation}
+T_{1/2} = \frac{\ln 2}{\alpha}
+\tag{11}
+\end{equation}
+$$<p>WHAT? <strong>This is a very interesting result.</strong> Notice that $\beta$ (the production rate) completely vanished. If a cell wants to reach its destination twice as fast, it cannot achieve this by simply manufacturing the protein faster (increasing $\beta$). If it increases $\beta$, it will certainly rise faster initially, but it also raises the destination height ($Y_{st} = \beta / \alpha$), meaning it still takes the exact same amount of time to reach the halfway point of that new, taller hill. The only way a simple gene circuit can speed up its response time is by increasing $\alpha$—meaning it must <strong>actively destroy the protein faster or divide faster</strong>.</p>
+<h2 id="the-structural-speed-limit-stable-proteins-and-cell-generation">The Structural Speed Limit: Stable Proteins and Cell Generation</h2>
+<p>This dependency on the removal rate $\alpha$ exposes a fundamental physical bottleneck for the cell when we look at <strong>stable proteins</strong>—proteins that the cell does not actively destroy ($\alpha_{\text{deg}} = 0$).</p>
+<p>For stable proteins, the only way to lower their concentration is through <strong>dilution</strong> ($\alpha = \alpha_{\text{dil}}$) as the cell grows. Cells grow exponentially, and by definition, the time it takes a growing cell to exactly double its volume and split into two daughter cells is called <strong>one cell generation time</strong> ($\tau$).</p>
+<p>Mathematically, the exponential growth rate of the cell&rsquo;s volume is locked to the generation time by the identity:
+</p>
+$$
+\begin{equation}
+\tau = \frac{\ln 2}{\alpha_{\text{dil}}}
+\tag{12}
+\end{equation}
+$$<p>If we look back at our formula for response time (Equation 11) and substitute the dilution rate for a stable protein, a remarkable mathematical identity emerges:
+</p>
+$$
+\begin{equation}
+T_{1/2} = \frac{\ln 2}{\alpha_{\text{dil}}} = \tau
+\tag{13}
+\end{equation}
+$$<p>The response time of a stable protein is exactly equal to one cell generation time.</p>
+<p>This simple equation carries profound biological consequences. In nature, bacteria divide every 20 to 30 minutes, while mammalian cells can take a day or longer. If a cell relies on a simple gene circuit with stable proteins to respond to a sudden environmental crisis or a toxic stressor, it will take an entire lifespan generation just to shift its internal state halfway to safety. By that time, the cell would likely perish, leaving only its daughter cells to benefit from the adaptation.</p>
+<!-- This realization transforms the mathematical response time from a simple parameter into a severe evolutionary constraint. A simple, open-loop circuit is trapped by its own growth rate. To survive in a rapidly changing world, biological networks must have evolved architectural configurations capable of breaking this one-generation speed limit.  -->
+<p>In the next chapter, we will see how the cell solves this exact engineering crisis using its very first network motif: <strong>Negative Auto-Regulation</strong>.</p>
+<h1 id="side-quests">Side Quests</h1>
+<p>One of the questions that I recently started looking into is: <strong>why does the cell always manufacture proteins?</strong> Why not simpler molecules like sugar or fats?</p>
+<p>The answer that I found convincing enough is from a more engineering perspective: <em>Perfect Programmability</em>. The DNA is written in a strict, linear digital manner. Proteins are also built as linear chains by stringing together 20 different building blocks called <em>amino acids</em>. Because both are linear, the cell can translate the digital instructions of DNA directly into a physical protein chain with perfect 1-to-1 precision. You cannot do this with complex, branched molecules like fats or carbohydrates.</p>
+
+</main>
+
+      <footer class="site-footer">
+        <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  },
+  output: {
+    font: 'mathjax-pagella',
+    scale: 1
+  },
+  chtml: {
+    matchFontHeight: false
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml-nofont.js" crossorigin="anonymous"></script>
+
+        
+        <p class="site-footer-text">© <a href="https://ppandey10.github.io/personal/">Prasoon Pandey</a> 2025 &ndash; 2026 | <a href="https://github.com/ppandey10">Github</a> | <a href="https://x.com/panprasoon">Twitter</a></p>
+        
+      </footer>
+    </div>
+  </body>
+</html>
+

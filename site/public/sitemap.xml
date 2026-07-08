@@ -2,21 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ppandey10.github.io/personal/blogs/</loc>
+    <loc>http://localhost:1313/personal/blogs/systems-biology/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/personal/blogs/papers/</loc>
     <lastmod>2026-05-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ppandey10.github.io/personal/blogs/29/05/2026/hello-world/</loc>
+    <loc>http://localhost:1313/personal/blogs/01/06/2026/autoregulation/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/personal/blogs/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/personal/</loc>
+    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/personal/blogs/31/05/2026/introduction-to-transcription-networks/</loc>
+    <lastmod>2026-05-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/personal/blogs/29/05/2026/hello-world/</loc>
     <lastmod>2026-05-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ppandey10.github.io/personal/</loc>
-    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/personal/categories/</loc>
   </url><url>
-    <loc>https://ppandey10.github.io/personal/categories/</loc>
+    <loc>http://localhost:1313/personal/cv/</loc>
   </url><url>
-    <loc>https://ppandey10.github.io/personal/cv/</loc>
+    <loc>http://localhost:1313/personal/research/</loc>
   </url><url>
-    <loc>https://ppandey10.github.io/personal/research/</loc>
-  </url><url>
-    <loc>https://ppandey10.github.io/personal/tags/</loc>
+    <loc>http://localhost:1313/personal/tags/</loc>
   </url>
 </urlset>

@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+<header class="page-header">
+  <h1 class="page-title">{{ .Title | markdownify }}</h1>
+  {{ if or .Params.author (gt .Params.date 0) }}
+  <p class="page-meta">
+    {{ with .Params.author }}<span class="author">{{ . }}</span>{{ end }}
+    {{ if and .Params.author (gt .Params.date 0) }}<span class="meta-sep" aria-hidden="true"> · </span>{{ end }}
+    {{ if (gt .Params.date 0) }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>{{ end }}
+  </p>
+  {{ end }}
+</header>
+
+<main class="page-content blog-content">
+    {{ .Content }}
+</main>
+
+{{ partial "footer.html" . }}

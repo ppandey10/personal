@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/personal/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=personal/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Regulatory Capacity Project | Hi, I am Prasoon!</title>
+    <link rel="stylesheet" href="/personal/css/style.css" />
+    <link rel="stylesheet" href="/personal/css/fonts.css" />
+    <link rel="stylesheet" href="/personal/css/chroma-light.css" />
+    <link rel="stylesheet" href="/personal/css/chroma-dark.css" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" type="image/png" href="/personal/imgs/icon.png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/fontawesome.min.css" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/brands.min.css" crossorigin="anonymous" />
+  </head>
+
+  <body class="page-reg_capacity">
+    <div class="site">
+      <header class="site-header">
+        <nav class="site-nav" aria-label="Main">
+          <ul class="menu">
+            
+            <li><a href="/personal/">Home</a></li>
+            
+            <li><a href="/personal/cv/">CV</a></li>
+            
+            <li><a href="/personal/research/">Research</a></li>
+            
+            <li><a href="/personal/blogs/">Blogs</a></li>
+            
+          </ul>
+        </nav>
+      </header>
+
+<header class="page-header">
+  <h1 class="page-title">Regulatory Capacity Project</h1>
+  
+</header>
+
+<main class="page-content blog-content">
+    <h1 id="abstract-for-iscb-2026">Abstract for ISCB 2026</h1>
+<p>Background: Aging is increasingly described as the progressive loss of regulatory control, a decline strongly reflected in DNA methylation (DNAm). At each CpG site, the methylation state is actively maintained by a balance between writing DNMTs and erasing TETs; as this balance falters with age, the methylome drifts toward global hypomethylation with focal hypermethylation. The way this breakdown plays out at individual sites, however, remains poorly quantified.</p>
+<p>Method: We address this through a phenomenological model for the methylation level at each CpG site as a bistable system relaxing between two competing attractors: a regulated set point sustained by the site&rsquo;s enzymatic maintenance capacity, and an entropic state toward which the site relaxes once that capacity decays past a critical point. Compiling public datasets spanning ~8000 cross-sectional samples, we estimate the model parameters by Bayesian inference.</p>
+<p>Results: The inference recovers two quantities that characterise each site&rsquo;s trajectory: the breaking time-point at which regulation ends, and the subsequent rate of collapse toward the entropic state. These parameters define a low-dimensional space in which CpG sites separate into distinct kinetic classes, each describing a different mode of regulatory failure, some sites destabilising early and others late, some collapsing abruptly and others gradually.</p>
+<p>Implications: The framework helps identify CpGs that stay well regulated across age. The conservation of these sites can then be traced to their role in essential transcriptional regulation, to functional constraints, and to local sequence context, inferred from the association between these sites and the expression of nearby genes. It further provides a framework to validate the synchronous behaviour of CpGs within CpG islands.</p>
+<h1 id="parameter-identifiability">Parameter Identifiability</h1>
+<h1 id="datasets">Datasets</h1>
+<p>Here are the list of datasets from various sources and papers:</p>
+<ul>
+<li>
+<p><strong>Paper:</strong> Varshavsky M, Harari G, Glaser B et al. <a href="https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(23)00211-4">Accurate age prediction from blood using a small set of DNA methylation sites and a cohort-based machine learning algorithm</a>. Cell Reports Methods, 2023; 3(10):100567.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Study</th>
+          <th>GEO Accession</th>
+          <th>Patient cohort</th>
+          <th>Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>van Dijk, 2017</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE103657">GSE103657</a></td>
+          <td>Yes</td>
+          <td>Neonatal blood spots; metabolic outcome study (BMI, insulin in childhood) — no disease patients, but neonatal samples (not standard adult blood)</td>
+      </tr>
+      <tr>
+          <td>Hannon, 2018</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105018">GSE105018</a></td>
+          <td>No</td>
+          <td>Healthy 18-year-old twins (E-Risk Study); no disease</td>
+      </tr>
+      <tr>
+          <td>Hannon, 2021</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147221">GSE147221</a></td>
+          <td>Yes</td>
+          <td>Schizophrenia cases + controls</td>
+      </tr>
+      <tr>
+          <td>Kandawamy, 2020</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154566">GSE154566</a></td>
+          <td>No</td>
+          <td>Buccal/blood MZ twins; victimization study — healthy individuals</td>
+      </tr>
+      <tr>
+          <td>Kho, 2020</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157131">GSE157131</a></td>
+          <td>No</td>
+          <td>Large blood DNAm; general population (no specific disease reported)</td>
+      </tr>
+      <tr>
+          <td>Simo-Riudalbas, 2015</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE30870">GSE30870</a></td>
+          <td>No</td>
+          <td>Newborns vs nonagenarians; healthy aging comparison</td>
+      </tr>
+      <tr>
+          <td>Alisch, 2012</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE36054">GSE36054</a></td>
+          <td>No</td>
+          <td>Healthy children; blood methylation</td>
+      </tr>
+      <tr>
+          <td>Hannum, 2013</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE40279">GSE40279</a></td>
+          <td>No</td>
+          <td>Healthy adults across age range; aging clock training</td>
+      </tr>
+      <tr>
+          <td>Horvath, 2012</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE41169">GSE41169</a></td>
+          <td>No</td>
+          <td>Dutch population blood; healthy controls</td>
+      </tr>
+      <tr>
+          <td>Liu, 2013</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE42861">GSE42861</a></td>
+          <td>Yes</td>
+          <td>Rheumatoid arthritis cases + controls</td>
+      </tr>
+      <tr>
+          <td>Liu, 2013[^2]</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51032">GSE51032</a></td>
+          <td>Yes</td>
+          <td>EPIC-Italy; breast cancer cases + controls</td>
+      </tr>
+      <tr>
+          <td>Lehne, 2015</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE55763">GSE55763</a></td>
+          <td>Partial</td>
+          <td>Healthy + type 2 diabetes patients mixed</td>
+      </tr>
+      <tr>
+          <td>Walker, 2015</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE64495">GSE64495</a></td>
+          <td>Yes</td>
+          <td>Syndrome X (developmental disorder) + controls</td>
+      </tr>
+      <tr>
+          <td>Kananen, 2016</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69270">GSE69270</a></td>
+          <td>No</td>
+          <td>Young Finns Study; healthy adults 40-49 yr</td>
+      </tr>
+      <tr>
+          <td>Zannas, 2019</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE72680">GSE72680</a></td>
+          <td>Yes</td>
+          <td>Grady Trauma Project; PTSD cases + controls</td>
+      </tr>
+      <tr>
+          <td>Horvath, 2016</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE72775">GSE72775</a></td>
+          <td>No</td>
+          <td>Hispanic/Caucasian blood; general population</td>
+      </tr>
+      <tr>
+          <td>Voisin, 2015</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73103">GSE73103</a></td>
+          <td>No</td>
+          <td>Healthy young individuals; obesity SNP study</td>
+      </tr>
+      <tr>
+          <td>Hannon, 2016</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE84727">GSE84727</a></td>
+          <td>Yes</td>
+          <td>Schizophrenia cases + controls</td>
+      </tr>
+      <tr>
+          <td>Ventham, 2016</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87648">GSE87648</a></td>
+          <td>Yes</td>
+          <td>IBD cases (Crohn&rsquo;s + UC) + controls</td>
+      </tr>
+  </tbody>
+</table>
+</li>
+<li>
+<p><strong>Paper:</strong> Loyfer, N., Magenheim, J., Peretz, A. et al. A DNA methylation atlas of normal human cell types. Nature 613, 355–364 (2023). <a href="https://doi.org/10.1038/s41586-022-05580-6">https://doi.org/10.1038/s41586-022-05580-6</a></p>
+</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>Study</th>
+          <th>GEO Accession</th>
+          <th>Patient cohort</th>
+          <th>Notes</th>
+          <th>Samples</th>
+          <th>Age range</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Loyfer, 2023</td>
+          <td><a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194824">GSE194824</a></td>
+          <td>No</td>
+          <td>Human cell types</td>
+          <td>205</td>
+          <td>3-83</td>
+      </tr>
+  </tbody>
+</table>
+
+</main>
+
+      <footer class="site-footer">
+        <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  },
+  output: {
+    font: 'mathjax-pagella',
+    scale: 1
+  },
+  chtml: {
+    matchFontHeight: false
+  }
+};
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml-nofont.js" crossorigin="anonymous"></script>
+
+        
+        <p class="site-footer-text">© <a href="https://ppandey10.github.io/personal/">Prasoon Pandey</a> 2025 &ndash; 2026 | <a href="https://github.com/ppandey10">Github</a> | <a href="https://x.com/panprasoon">Twitter</a></p>
+        
+      </footer>
+    </div>
+  </body>
+</html>
+

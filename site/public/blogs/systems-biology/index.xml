@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Systems Biology on Hi, I am Prasoon!</title>
+    <link>http://localhost:1313/personal/blogs/systems-biology/</link>
+    <description>Recent content in Systems Biology on Hi, I am Prasoon!</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/personal/blogs/systems-biology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autoregulation</title>
+      <link>http://localhost:1313/personal/blogs/01/06/2026/autoregulation/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/personal/blogs/01/06/2026/autoregulation/</guid>
+      <description>&lt;p&gt;This is the second post in the series on systems biology. In the previous &lt;a href=&#34;http://localhost:1313/personal/blogs/31/05/2026/introduction-to-transcription-networks/&#34;&gt;post&lt;/a&gt;, we discussed the dynamics of a simple (single interaction) transcription network. In this post, we will get our hands dirty by looking at the dynamics of a complex transcription network with multiple interactions.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;GOAL:&lt;/strong&gt; Before we dig further, it&amp;rsquo;s important to clarify the objective of this post. Framing it as the questions we want to answer: &lt;strong&gt;How do we find meaningful patterns in a complex web of thousands of genes? And how does a simple loop completely alter the speed limit ($T_{1/2} = \tau$) we just established?&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction to Transcription Networks</title>
+      <link>http://localhost:1313/personal/blogs/31/05/2026/introduction-to-transcription-networks/</link>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/personal/blogs/31/05/2026/introduction-to-transcription-networks/</guid>
+      <description>&lt;p&gt;This is the first post in the series on systems biology. In this post, we will discuss the basics of transcription networks and how they are used to solve what Alon calls the &amp;ldquo;cognitive problem&amp;rdquo; of the cell.&lt;/p&gt;&#xA;&lt;h1 id=&#34;dna-genome-and-genes---what-is-the-difference&#34;&gt;DNA, Genome, and Genes - What is the Difference?&lt;/h1&gt;&#xA;&lt;p&gt;These three terms are heard quite frequently in the biological sciences, and most of the time they are used interchangeably. However, they are different concepts and have different meanings but can be put under the same umbrella. The purpose of this section is to develop a sense of what they are and their relationship. We need to think of them not as a chain but as nested levels of organization.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

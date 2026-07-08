@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PhD on Hi, I am Prasoon!</title>
+    <link>http://localhost:1313/personal/blogs/phd/</link>
+    <description>Recent content in PhD on Hi, I am Prasoon!</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/personal/blogs/phd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Regulatory Capacity Project</title>
+      <link>http://localhost:1313/personal/blogs/01/01/1/regulatory-capacity-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/personal/blogs/01/01/1/regulatory-capacity-project/</guid>
+      <description>&lt;h1 id=&#34;abstract-for-iscb-2026&#34;&gt;Abstract for ISCB 2026&lt;/h1&gt;&#xA;&lt;p&gt;Background: Aging is increasingly described as the progressive loss of regulatory control, a decline strongly reflected in DNA methylation (DNAm). At each CpG site, the methylation state is actively maintained by a balance between writing DNMTs and erasing TETs; as this balance falters with age, the methylome drifts toward global hypomethylation with focal hypermethylation. The way this breakdown plays out at individual sites, however, remains poorly quantified.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
