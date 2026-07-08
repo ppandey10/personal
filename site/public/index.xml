@@ -1,47 +1,258 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Home on Hi, I am Prasoon!</title>
-    <link>https://ppandey10.github.io/personal/</link>
-    <description>Recent content in Home on Hi, I am Prasoon!</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ppandey10.github.io/personal/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Autoregulation</title>
-      <link>https://ppandey10.github.io/personal/blogs/01/06/2026/autoregulation/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://ppandey10.github.io/personal/blogs/01/06/2026/autoregulation/</guid>
-      <description>&lt;p&gt;This is the second post in the series on systems biology. In the previous &lt;a href=&#34;https://ppandey10.github.io/personal/blogs/31/05/2026/introduction-to-transcription-networks/&#34;&gt;post&lt;/a&gt;, we discussed the dynamics of a simple (single interaction) transcription network. In this post, we will get our hands dirty by looking at the dynamics of a complex transcription network with multiple interactions.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;GOAL:&lt;/strong&gt; Before we dig further, it&amp;rsquo;s important to clarify the objective of this post. Framing it as the questions we want to answer: &lt;strong&gt;How do we find meaningful patterns in a complex web of thousands of genes? And how does a simple loop completely alter the speed limit ($T_{1/2} = \tau$) we just established?&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Introduction to Transcription Networks</title>
-      <link>https://ppandey10.github.io/personal/blogs/31/05/2026/introduction-to-transcription-networks/</link>
-      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://ppandey10.github.io/personal/blogs/31/05/2026/introduction-to-transcription-networks/</guid>
-      <description>&lt;p&gt;This is the first post in the series on systems biology. In this post, we will discuss the basics of transcription networks and how they are used to solve what Alon calls the &amp;ldquo;cognitive problem&amp;rdquo; of the cell.&lt;/p&gt;&#xA;&lt;h1 id=&#34;dna-genome-and-genes---what-is-the-difference&#34;&gt;DNA, Genome, and Genes - What is the Difference?&lt;/h1&gt;&#xA;&lt;p&gt;These three terms are heard quite frequently in the biological sciences, and most of the time they are used interchangeably. However, they are different concepts and have different meanings but can be put under the same umbrella. The purpose of this section is to develop a sense of what they are and their relationship. We need to think of them not as a chain but as nested levels of organization.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hello World!</title>
-      <link>https://ppandey10.github.io/personal/blogs/29/05/2026/hello-world/</link>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://ppandey10.github.io/personal/blogs/29/05/2026/hello-world/</guid>
-      <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h2&gt;&#xA;&lt;p&gt;This is a test blog post.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# here is test code&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;os&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;numpy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;np&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;plt&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;latex&#34;&gt;LaTeX&lt;/h2&gt;&#xA;&lt;p&gt;Here is an example of inline LaTeX: $E = mc^2$.&lt;/p&gt;&#xA;&lt;p&gt;Test for display math:&lt;/p&gt;&#xA;$$&#xA;{\sqrt {n}}\left(\left({\frac {1}{n}}\sum _{i=1}^{n}X_{i}\right)-\mu \right)\ {\xrightarrow {d}}\ N\left(0,\sigma ^{2}\right)&#xA;$$</description>
-    </item>
-    <item>
-      <title>CV</title>
-      <link>https://ppandey10.github.io/personal/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ppandey10.github.io/personal/cv/</guid>
-      <description>&lt;div class=&#34;cv-timeline&#34;&gt;&#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;&lt;article class=&#34;cv-group&#34;&gt;&#xA;  &lt;span class=&#34;cv-marker&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&#xA;  &lt;div class=&#34;cv-body&#34;&gt;&#xA;    &lt;div class=&#34;cv-main&#34;&gt;&#xA;      &lt;span class=&#34;cv-dates&#34;&gt;March 2025 - Present&lt;/span&gt;&#xA;      &#xA;      &lt;span class=&#34;cv-role&#34;&gt;Student Researcher → PhD&lt;/span&gt;&#xA;      &#xA;      &#xA;      &lt;span class=&#34;cv-institution&#34;&gt;&#xA;        &#xA;        &lt;a href=&#34;https://www.leibniz-fli.de/&#34;&gt;Fritz Lipmann Institute, Germany&lt;/a&gt;&#xA;        &#xA;      &lt;/span&gt;&#xA;      &#xA;    &lt;/div&gt;&#xA;    &#xA;    &lt;span class=&#34;cv-supervisor&#34;&gt;&#xA;      &lt;span class=&#34;cv-supervisor-label&#34;&gt;Advisor&lt;/span&gt;&#xA;      &lt;span class=&#34;cv-supervisor-name&#34;&gt;&#xA;        &#xA;        &lt;a href=&#34;https://www.leibniz-fli.de/research/research-groups/associated-research-groups/d%C3%B6nertas-group&#34;&gt;Dr. H. Melike Dönertas&lt;/a&gt;&#xA;        &#xA;      &lt;/span&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;cv-group-roles&#34;&gt;&#xA;    &#xA;    &#xA;&#xA;&lt;details class=&#34;cv-role-entry&#34;&gt;&#xA;  &lt;summary class=&#34;cv-role-summary&#34;&gt;&#xA;    &lt;span class=&#34;cv-marker cv-marker--sub&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&#xA;    &lt;span class=&#34;cv-role-main&#34;&gt;&#xA;      &lt;span class=&#34;cv-role-dates&#34;&gt;April 2026 - Present&lt;/span&gt;&#xA;      &lt;span class=&#34;cv-role-name&#34;&gt;PhD in Computational Biology&lt;/span&gt;&#xA;    &lt;/span&gt;&#xA;    &lt;span class=&#34;cv-toggle cv-toggle--small&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&#xA;  &lt;/summary&gt;&#xA;  &#xA;  &lt;div class=&#34;cv-role-panel&#34;&gt;&#xA;    &lt;ul class=&#34;cv-bullets&#34;&gt;&#xA;      &lt;li&gt;Research: Theoretical Aging Models and Machine Learning&lt;/li&gt;&lt;li&gt;Continuing development of biologically informed frameworks for modeling epigenetic aging and DNA methylation dynamics&lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;  &lt;/div&gt;&#xA;  &#xA;&lt;/details&gt;&#xA;&#xA;    &#xA;    &#xA;&#xA;&lt;details class=&#34;cv-role-entry&#34;&gt;&#xA;  &lt;summary class=&#34;cv-role-summary&#34;&gt;&#xA;    &lt;span class=&#34;cv-marker cv-marker--sub&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&#xA;    &lt;span class=&#34;cv-role-main&#34;&gt;&#xA;      &lt;span class=&#34;cv-role-dates&#34;&gt;March 2025 - April 2026&lt;/span&gt;&#xA;      &lt;span class=&#34;cv-role-name&#34;&gt;ML Student Researcher&lt;/span&gt;&#xA;    &lt;/span&gt;&#xA;    &lt;span class=&#34;cv-toggle cv-toggle--small&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&#xA;  &lt;/summary&gt;&#xA;  &#xA;  &lt;div class=&#34;cv-role-panel&#34;&gt;&#xA;    &lt;ul class=&#34;cv-bullets&#34;&gt;&#xA;      &lt;li&gt;Investigated the stochastic nature of aging and developed dynamical systems models of DNA methylation&lt;/li&gt;&lt;li&gt;Leading and developing a mathematically grounded framework for epigenetic aging, modeling the cellular dynamics of DNA methylation&lt;/li&gt;&lt;li&gt;Analyzing the mechanistic and biological interpretation of traditional ElasticNet-based epigenetic predictors&lt;/li&gt;&lt;li&gt;Designing and maintaining data engineering pipelines for large-scale DNAm datasets, including preprocessing and package management&lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;  &lt;/div&gt;&#xA;  &#xA;&lt;/details&gt;&#xA;&#xA;    &#xA;  &lt;/div&gt;&#xA;&lt;/article&gt;&#xA;&#xA;  &#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;details class=&#34;cv-entry&#34;&gt;&#xA;  &lt;summary class=&#34;cv-summary&#34;&gt;&#xA;    &lt;span class=&#34;cv-marker&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&#xA;    &lt;span class=&#34;cv-body&#34;&gt;&#xA;      &lt;span class=&#34;cv-main&#34;&gt;&#xA;        &lt;span class=&#34;cv-dates&#34;&gt;October 2022 - April 2026&lt;/span&gt;&#xA;        &lt;span class=&#34;cv-role&#34;&gt;MSc in Physics&lt;/span&gt;&#xA;        &#xA;        &lt;span class=&#34;cv-institution&#34;&gt;&#xA;          &#xA;          &lt;a href=&#34;https://www.uni-jena.de/&#34;&gt;Friedrich-Schiller-Universität Jena, Germany&lt;/a&gt;&#xA;          &#xA;        &lt;/span&gt;&#xA;        &#xA;      &lt;/span&gt;&#xA;      &#xA;      &lt;span class=&#34;cv-supervisor&#34;&gt;&#xA;        &lt;span class=&#34;cv-supervisor-label&#34;&gt;Advisor&lt;/span&gt;&#xA;        &lt;span class=&#34;cv-supervisor-name&#34;&gt;&#xA;          &#xA;          &lt;a href=&#34;https://www.tpi.uni-jena.de/~bernuzzi/&#34;&gt;Dr. Sebastiano Bernuzzi&lt;/a&gt;&#xA;          &#xA;        &lt;/span&gt;&#xA;      &lt;/span&gt;&#xA;      &#xA;    &lt;/span&gt;&#xA;    &lt;span class=&#34;cv-toggle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&#xA;  &lt;/summary&gt;&#xA;  &lt;div class=&#34;cv-panel&#34;&gt;&#xA;    &#xA;    &lt;ul class=&#34;cv-bullets&#34;&gt;&#xA;      &lt;li&gt;Thesis: Machine Learning for Gravitational Waves&lt;/li&gt;&lt;li&gt;Developing a machine learning-based gravitational waveform model &lt;a href=&#34;https://github.com/ppandey10/mlgw_bns_HOM/tree/main&#34;&gt;&lt;code&gt;mlgw_bns_HOM&lt;/code&gt;&lt;/a&gt; incorporating higher-order modes and precession effects to reduce parameter estimation runtime&lt;/li&gt;&lt;li&gt;Designed a pipeline enabling training data generation, model training, and testing on standard CPUs, eliminating the need for GPUs or high-performance computing&lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;    &#xA;  &lt;/div&gt;&#xA;&lt;/details&gt;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;details class=&#34;cv-entry&#34;&gt;&#xA;  &lt;summary class=&#34;cv-summary&#34;&gt;&#xA;    &lt;span class=&#34;cv-marker&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&#xA;    &lt;span class=&#34;cv-body&#34;&gt;&#xA;      &lt;span class=&#34;cv-main&#34;&gt;&#xA;        &lt;span class=&#34;cv-dates&#34;&gt;October 2023 - July 2024&lt;/span&gt;&#xA;        &lt;span class=&#34;cv-role&#34;&gt;ML Research Assistant&lt;/span&gt;&#xA;        &#xA;        &lt;span class=&#34;cv-institution&#34;&gt;&#xA;          &#xA;          &lt;a href=&#34;https://www.bgc-jena.mpg.de/&#34;&gt;Max Planck Institute for Biogeochemistry&lt;/a&gt;&#xA;          &#xA;        &lt;/span&gt;&#xA;        &#xA;      &lt;/span&gt;&#xA;      &#xA;      &lt;span class=&#34;cv-supervisor&#34;&gt;&#xA;        &lt;span class=&#34;cv-supervisor-label&#34;&gt;Advisor&lt;/span&gt;&#xA;        &lt;span class=&#34;cv-supervisor-name&#34;&gt;&#xA;          &#xA;          &lt;a href=&#34;https://www.bgc-jena.mpg.de/person/121289/2206&#34;&gt;Dr. Nuno Carvalhais&lt;/a&gt;&#xA;          &#xA;        &lt;/span&gt;&#xA;      &lt;/span&gt;&#xA;      &#xA;    &lt;/span&gt;&#xA;    &lt;span class=&#34;cv-toggle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&#xA;  &lt;/summary&gt;&#xA;  &lt;div class=&#34;cv-panel&#34;&gt;&#xA;    &#xA;    &lt;ul class=&#34;cv-bullets&#34;&gt;&#xA;      &lt;li&gt;Contributed to the &lt;a href=&#34;https://www.earthnet.tech/&#34;&gt;EarthNet&lt;/a&gt; Initiative by leveraging high-resolution satellite imagery to develop data-driven impact early warning systems for droughts and heat waves&lt;/li&gt;&lt;li&gt;Conducted research on spatio-temporal land surface forecasting using 3D and (2+1)D CNNs&lt;/li&gt;&lt;li&gt;Achieved a 50% reduction in training time compared to best models while maintaining competitive performance metrics&lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;    &#xA;  &lt;/div&gt;&#xA;&lt;/details&gt;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &#xA;  &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;details class=&#34;cv-entry&#34;&gt;&#xA;  &lt;summary class=&#34;cv-summary&#34;&gt;&#xA;    &lt;span class=&#34;cv-marker&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&#xA;    &lt;span class=&#34;cv-body&#34;&gt;&#xA;      &lt;span class=&#34;cv-main&#34;&gt;&#xA;        &lt;span class=&#34;cv-dates&#34;&gt;July 2019 - May 2022&lt;/span&gt;&#xA;        &lt;span class=&#34;cv-role&#34;&gt;BSc in Physics&lt;/span&gt;&#xA;        &#xA;        &lt;span class=&#34;cv-institution&#34;&gt;&#xA;          &#xA;          &lt;a href=&#34;https://www.bitmesra.ac.in/&#34;&gt;Birla Institute of Technology, Mesra&lt;/a&gt;&#xA;          &#xA;        &lt;/span&gt;&#xA;        &#xA;      &lt;/span&gt;&#xA;      &#xA;      &lt;span class=&#34;cv-supervisor&#34;&gt;&#xA;        &lt;span class=&#34;cv-supervisor-label&#34;&gt;Supervisor&lt;/span&gt;&#xA;        &lt;span class=&#34;cv-supervisor-name&#34;&gt;&#xA;          &#xA;          &lt;a href=&#34;https://scholar.google.com/citations?user=JeLsl_4AAAAJ&amp;amp;hl=en&#34;&gt;Dr. Uma Papnoi&lt;/a&gt;&#xA;          &#xA;        &lt;/span&gt;&#xA;      &lt;/span&gt;&#xA;      &#xA;    &lt;/span&gt;&#xA;    &lt;span class=&#34;cv-toggle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/span&gt;&#xA;  &lt;/summary&gt;&#xA;  &lt;div class=&#34;cv-panel&#34;&gt;&#xA;    &#xA;    &lt;ul class=&#34;cv-bullets&#34;&gt;&#xA;      &lt;li&gt;Theoretical astrophysics; first peer-reviewed publication on thermodynamics and gravitational lensing of charged black holes in perfect fluid dark matter.&lt;/li&gt;&#xA;    &lt;/ul&gt;&#xA;    &#xA;  &lt;/div&gt;&#xA;&lt;/details&gt;&#xA;&#xA;&#xA;  &#xA;  &#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&lt;h2 class=&#34;cv-section-title&#34;&gt;Publication&lt;/h2&gt;&#xA;&lt;ul class=&#34;cv-publications&#34;&gt;&#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &lt;li class=&#34;cv-publication&#34;&gt;&#xA;    &lt;p class=&#34;cv-publication-citation&#34;&gt;&#xA;      Mark Olenik, Ismail Güderer, Yi Wang, Tayyab Alvi, &lt;strong&gt;Prasoon Pandey&lt;/strong&gt;, and H. Melike Dönertas. “Design and analysis strategies for robust microbiome ageing research”. &lt;em&gt;FEBS Lett. 590 (2026)&lt;/em&gt;.&#xA;      &lt;a href=&#34;https://doi.org/10.1002/1873-3468.70397&#34;&gt;doi:10.1002/1873-3468.70397&lt;/a&gt;&#xA;    &lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Research</title>
-      <link>https://ppandey10.github.io/personal/research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ppandey10.github.io/personal/research/</guid>
-      <description>&lt;p&gt;This page highlights two research directions: my current work on &lt;a href=&#34;#aging-and-longevity&#34;&gt;Aging and Longevity&lt;/a&gt;, and my previous MSc research in &lt;a href=&#34;#msc-thesis&#34;&gt;Gravitational Waves&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;aging-and-longevity&#34;&gt;Aging and Longevity&lt;/h2&gt;&#xA;&lt;p&gt;Over the past few months, I have been working with &lt;a href=&#34;https://donertas-group.github.io/people/&#34;&gt;Dr. Mark Olenik&lt;/a&gt; and &lt;a href=&#34;https://www.leibniz-fli.de/research/research-groups/associated-research-groups/d%C3%B6nertas-group&#34;&gt;Dr. Melike Dönertaş&lt;/a&gt; on a project aimed at understanding the stochastic nature of aging.&lt;/p&gt;&#xA;&lt;p&gt;Chronological age simply measures the time elapsed since birth. Aging, however, refers to the progressive decline in biological function that increases vulnerability to disease and death. Quantifying this process, often described as estimating an individual’s biological age, is central to understanding age-related diseases and designing interventions that promote healthy longevity. One widely used framework for this purpose is the concept of an aging clock.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Hi, I am Prasoon!</title><link>https://ppandey10.github.io/personal/</link><description>Recent content in Home on Hi, I am Prasoon!</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ppandey10.github.io/personal/index.xml" rel="self" type="application/rss+xml"/><item><title>Autoregulation</title><link>https://ppandey10.github.io/personal/blogs/01/06/2026/autoregulation/</link><pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate><guid>https://ppandey10.github.io/personal/blogs/01/06/2026/autoregulation/</guid><description>&lt;p&gt;This is the second post in the series on systems biology. In the previous &lt;a href="https://ppandey10.github.io/personal/blogs/31/05/2026/introduction-to-transcription-networks/"&gt;post&lt;/a&gt;, we discussed the dynamics of a simple (single interaction) transcription network. In this post, we will get our hands dirty by looking at the dynamics of a complex transcription network with multiple interactions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GOAL:&lt;/strong&gt; Before we dig further, it&amp;rsquo;s important to clarify the objective of this post. Framing it as the questions we want to answer: &lt;strong&gt;How do we find meaningful patterns in a complex web of thousands of genes? And how does a simple loop completely alter the speed limit ($T_{1/2} = \tau$) we just established?&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Introduction to Transcription Networks</title><link>https://ppandey10.github.io/personal/blogs/31/05/2026/introduction-to-transcription-networks/</link><pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate><guid>https://ppandey10.github.io/personal/blogs/31/05/2026/introduction-to-transcription-networks/</guid><description>&lt;p&gt;This is the first post in the series on systems biology. In this post, we will discuss the basics of transcription networks and how they are used to solve what Alon calls the &amp;ldquo;cognitive problem&amp;rdquo; of the cell.&lt;/p&gt;
+&lt;h1 id="dna-genome-and-genes---what-is-the-difference"&gt;DNA, Genome, and Genes - What is the Difference?&lt;/h1&gt;
+&lt;p&gt;These three terms are heard quite frequently in the biological sciences, and most of the time they are used interchangeably. However, they are different concepts and have different meanings but can be put under the same umbrella. The purpose of this section is to develop a sense of what they are and their relationship. We need to think of them not as a chain but as nested levels of organization.&lt;/p&gt;</description></item><item><title>Hello World!</title><link>https://ppandey10.github.io/personal/blogs/29/05/2026/hello-world/</link><pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate><guid>https://ppandey10.github.io/personal/blogs/29/05/2026/hello-world/</guid><description>&lt;h2 id="hello-world"&gt;Hello World!&lt;/h2&gt;
+&lt;p&gt;This is a test blog post.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# here is test code&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;os&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;plt&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="latex"&gt;LaTeX&lt;/h2&gt;
+&lt;p&gt;Here is an example of inline LaTeX: $E = mc^2$.&lt;/p&gt;
+&lt;p&gt;Test for display math:&lt;/p&gt;
+$$
+{\sqrt {n}}\left(\left({\frac {1}{n}}\sum _{i=1}^{n}X_{i}\right)-\mu \right)\ {\xrightarrow {d}}\ N\left(0,\sigma ^{2}\right)
+$$</description></item><item><title>CV</title><link>https://ppandey10.github.io/personal/cv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ppandey10.github.io/personal/cv/</guid><description>&lt;div class="cv-timeline"&gt;
+ 
+ 
+ 
+
+
+&lt;article class="cv-group"&gt;
+ &lt;span class="cv-marker" aria-hidden="true"&gt;&lt;/span&gt;
+ &lt;div class="cv-body"&gt;
+ &lt;div class="cv-main"&gt;
+ &lt;span class="cv-dates"&gt;March 2025 - Present&lt;/span&gt;
+ 
+ &lt;span class="cv-role"&gt;Student Researcher → PhD&lt;/span&gt;
+ 
+ 
+ &lt;span class="cv-institution"&gt;
+ 
+ &lt;a href="https://www.leibniz-fli.de/"&gt;Fritz Lipmann Institute, Germany&lt;/a&gt;
+ 
+ &lt;/span&gt;
+ 
+ &lt;/div&gt;
+ 
+ &lt;span class="cv-supervisor"&gt;
+ &lt;span class="cv-supervisor-label"&gt;Advisor&lt;/span&gt;
+ &lt;span class="cv-supervisor-name"&gt;
+ 
+ &lt;a href="https://www.leibniz-fli.de/research/research-groups/associated-research-groups/d%C3%B6nertas-group"&gt;Dr. H. Melike Dönertas&lt;/a&gt;
+ 
+ &lt;/span&gt;
+ &lt;/span&gt;
+ 
+ &lt;/div&gt;
+ &lt;div class="cv-group-roles"&gt;
+ 
+ 
+
+&lt;details class="cv-role-entry"&gt;
+ &lt;summary class="cv-role-summary"&gt;
+ &lt;span class="cv-marker cv-marker--sub" aria-hidden="true"&gt;&lt;/span&gt;
+ &lt;span class="cv-role-main"&gt;
+ &lt;span class="cv-role-dates"&gt;April 2026 - Present&lt;/span&gt;
+ &lt;span class="cv-role-name"&gt;PhD in Computational Biology&lt;/span&gt;
+ &lt;/span&gt;
+ &lt;span class="cv-toggle cv-toggle--small" aria-hidden="true"&gt;&lt;/span&gt;
+ &lt;/summary&gt;
+ 
+ &lt;div class="cv-role-panel"&gt;
+ &lt;ul class="cv-bullets"&gt;
+ &lt;li&gt;Research: Theoretical Aging Models and Machine Learning&lt;/li&gt;&lt;li&gt;Continuing development of biologically informed frameworks for modeling epigenetic aging and DNA methylation dynamics&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/div&gt;
+ 
+&lt;/details&gt;
+
+ 
+ 
+
+&lt;details class="cv-role-entry"&gt;
+ &lt;summary class="cv-role-summary"&gt;
+ &lt;span class="cv-marker cv-marker--sub" aria-hidden="true"&gt;&lt;/span&gt;
+ &lt;span class="cv-role-main"&gt;
+ &lt;span class="cv-role-dates"&gt;March 2025 - April 2026&lt;/span&gt;
+ &lt;span class="cv-role-name"&gt;ML Student Researcher&lt;/span&gt;
+ &lt;/span&gt;
+ &lt;span class="cv-toggle cv-toggle--small" aria-hidden="true"&gt;&lt;/span&gt;
+ &lt;/summary&gt;
+ 
+ &lt;div class="cv-role-panel"&gt;
+ &lt;ul class="cv-bullets"&gt;
+ &lt;li&gt;Investigated the stochastic nature of aging and developed dynamical systems models of DNA methylation&lt;/li&gt;&lt;li&gt;Leading and developing a mathematically grounded framework for epigenetic aging, modeling the cellular dynamics of DNA methylation&lt;/li&gt;&lt;li&gt;Analyzing the mechanistic and biological interpretation of traditional ElasticNet-based epigenetic predictors&lt;/li&gt;&lt;li&gt;Designing and maintaining data engineering pipelines for large-scale DNAm datasets, including preprocessing and package management&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/div&gt;
+ 
+&lt;/details&gt;
+
+ 
+ &lt;/div&gt;
+&lt;/article&gt;
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;details class="cv-entry"&gt;
+ &lt;summary class="cv-summary"&gt;
+ &lt;span class="cv-marker" aria-hidden="true"&gt;&lt;/span&gt;
+ &lt;span class="cv-body"&gt;
+ &lt;span class="cv-main"&gt;
+ &lt;span class="cv-dates"&gt;October 2022 - April 2026&lt;/span&gt;
+ &lt;span class="cv-role"&gt;MSc in Physics&lt;/span&gt;
+ 
+ &lt;span class="cv-institution"&gt;
+ 
+ &lt;a href="https://www.uni-jena.de/"&gt;Friedrich-Schiller-Universität Jena, Germany&lt;/a&gt;
+ 
+ &lt;/span&gt;
+ 
+ &lt;/span&gt;
+ 
+ &lt;span class="cv-supervisor"&gt;
+ &lt;span class="cv-supervisor-label"&gt;Advisor&lt;/span&gt;
+ &lt;span class="cv-supervisor-name"&gt;
+ 
+ &lt;a href="https://www.tpi.uni-jena.de/~bernuzzi/"&gt;Dr. Sebastiano Bernuzzi&lt;/a&gt;
+ 
+ &lt;/span&gt;
+ &lt;/span&gt;
+ 
+ &lt;/span&gt;
+ &lt;span class="cv-toggle" aria-hidden="true"&gt;&lt;/span&gt;
+ &lt;/summary&gt;
+ &lt;div class="cv-panel"&gt;
+ 
+ &lt;ul class="cv-bullets"&gt;
+ &lt;li&gt;Thesis: Machine Learning for Gravitational Waves&lt;/li&gt;&lt;li&gt;Developing a machine learning-based gravitational waveform model &lt;a href="https://github.com/ppandey10/mlgw_bns_HOM/tree/main"&gt;&lt;code&gt;mlgw_bns_HOM&lt;/code&gt;&lt;/a&gt; incorporating higher-order modes and precession effects to reduce parameter estimation runtime&lt;/li&gt;&lt;li&gt;Designed a pipeline enabling training data generation, model training, and testing on standard CPUs, eliminating the need for GPUs or high-performance computing&lt;/li&gt;
+ &lt;/ul&gt;
+ 
+ &lt;/div&gt;
+&lt;/details&gt;
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;details class="cv-entry"&gt;
+ &lt;summary class="cv-summary"&gt;
+ &lt;span class="cv-marker" aria-hidden="true"&gt;&lt;/span&gt;
+ &lt;span class="cv-body"&gt;
+ &lt;span class="cv-main"&gt;
+ &lt;span class="cv-dates"&gt;October 2023 - July 2024&lt;/span&gt;
+ &lt;span class="cv-role"&gt;ML Research Assistant&lt;/span&gt;
+ 
+ &lt;span class="cv-institution"&gt;
+ 
+ &lt;a href="https://www.bgc-jena.mpg.de/"&gt;Max Planck Institute for Biogeochemistry&lt;/a&gt;
+ 
+ &lt;/span&gt;
+ 
+ &lt;/span&gt;
+ 
+ &lt;span class="cv-supervisor"&gt;
+ &lt;span class="cv-supervisor-label"&gt;Advisor&lt;/span&gt;
+ &lt;span class="cv-supervisor-name"&gt;
+ 
+ &lt;a href="https://www.bgc-jena.mpg.de/person/121289/2206"&gt;Dr. Nuno Carvalhais&lt;/a&gt;
+ 
+ &lt;/span&gt;
+ &lt;/span&gt;
+ 
+ &lt;/span&gt;
+ &lt;span class="cv-toggle" aria-hidden="true"&gt;&lt;/span&gt;
+ &lt;/summary&gt;
+ &lt;div class="cv-panel"&gt;
+ 
+ &lt;ul class="cv-bullets"&gt;
+ &lt;li&gt;Contributed to the &lt;a href="https://www.earthnet.tech/"&gt;EarthNet&lt;/a&gt; Initiative by leveraging high-resolution satellite imagery to develop data-driven impact early warning systems for droughts and heat waves&lt;/li&gt;&lt;li&gt;Conducted research on spatio-temporal land surface forecasting using 3D and (2+1)D CNNs&lt;/li&gt;&lt;li&gt;Achieved a 50% reduction in training time compared to best models while maintaining competitive performance metrics&lt;/li&gt;
+ &lt;/ul&gt;
+ 
+ &lt;/div&gt;
+&lt;/details&gt;
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+&lt;details class="cv-entry"&gt;
+ &lt;summary class="cv-summary"&gt;
+ &lt;span class="cv-marker" aria-hidden="true"&gt;&lt;/span&gt;
+ &lt;span class="cv-body"&gt;
+ &lt;span class="cv-main"&gt;
+ &lt;span class="cv-dates"&gt;July 2019 - May 2022&lt;/span&gt;
+ &lt;span class="cv-role"&gt;BSc in Physics&lt;/span&gt;
+ 
+ &lt;span class="cv-institution"&gt;
+ 
+ &lt;a href="https://www.bitmesra.ac.in/"&gt;Birla Institute of Technology, Mesra&lt;/a&gt;
+ 
+ &lt;/span&gt;
+ 
+ &lt;/span&gt;
+ 
+ &lt;span class="cv-supervisor"&gt;
+ &lt;span class="cv-supervisor-label"&gt;Supervisor&lt;/span&gt;
+ &lt;span class="cv-supervisor-name"&gt;
+ 
+ &lt;a href="https://scholar.google.com/citations?user=JeLsl_4AAAAJ&amp;amp;hl=en"&gt;Dr. Uma Papnoi&lt;/a&gt;
+ 
+ &lt;/span&gt;
+ &lt;/span&gt;
+ 
+ &lt;/span&gt;
+ &lt;span class="cv-toggle" aria-hidden="true"&gt;&lt;/span&gt;
+ &lt;/summary&gt;
+ &lt;div class="cv-panel"&gt;
+ 
+ &lt;ul class="cv-bullets"&gt;
+ &lt;li&gt;Theoretical astrophysics; first peer-reviewed publication on thermodynamics and gravitational lensing of charged black holes in perfect fluid dark matter.&lt;/li&gt;
+ &lt;/ul&gt;
+ 
+ &lt;/div&gt;
+&lt;/details&gt;
+
+
+ 
+ 
+&lt;/div&gt;
+
+
+&lt;h2 class="cv-section-title"&gt;Publication&lt;/h2&gt;
+&lt;ul class="cv-publications"&gt;
+ 
+ 
+ 
+ 
+ 
+ &lt;li class="cv-publication"&gt;
+ &lt;p class="cv-publication-citation"&gt;
+ Mark Olenik, Ismail Güderer, Yi Wang, Tayyab Alvi, &lt;strong&gt;Prasoon Pandey&lt;/strong&gt;, and H. Melike Dönertas. “Design and analysis strategies for robust microbiome ageing research”. &lt;em&gt;FEBS Lett. 590 (2026)&lt;/em&gt;.
+ &lt;a href="https://doi.org/10.1002/1873-3468.70397"&gt;doi:10.1002/1873-3468.70397&lt;/a&gt;
+ &lt;/p&gt;</description></item><item><title>Research</title><link>https://ppandey10.github.io/personal/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ppandey10.github.io/personal/research/</guid><description>&lt;p&gt;This page highlights two research directions: my current work on &lt;a href="#aging-and-longevity"&gt;Aging and Longevity&lt;/a&gt;, and my previous MSc research in &lt;a href="#msc-thesis"&gt;Gravitational Waves&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="aging-and-longevity"&gt;Aging and Longevity&lt;/h2&gt;
+&lt;p&gt;Over the past few months, I have been working with &lt;a href="https://donertas-group.github.io/people/"&gt;Dr. Mark Olenik&lt;/a&gt; and &lt;a href="https://www.leibniz-fli.de/research/research-groups/associated-research-groups/d%C3%B6nertas-group"&gt;Dr. Melike Dönertaş&lt;/a&gt; on a project aimed at understanding the stochastic nature of aging.&lt;/p&gt;
+&lt;p&gt;Chronological age simply measures the time elapsed since birth. Aging, however, refers to the progressive decline in biological function that increases vulnerability to disease and death. Quantifying this process, often described as estimating an individual’s biological age, is central to understanding age-related diseases and designing interventions that promote healthy longevity. One widely used framework for this purpose is the concept of an aging clock.&lt;/p&gt;</description></item></channel></rss>
