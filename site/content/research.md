@@ -6,7 +6,7 @@ This page highlights two research directions: my current work on [Aging and Long
 
 ## Aging and Longevity
 
-Over the past few months, I have been working with [Dr. Mark Olenik](https://donertas-group.github.io/people/) and [Dr. Melike Dönertaş](https://donertas-group.github.io/people/) on a project aimed at understanding the stochastic nature of aging.
+Over the past few months, I have been working with [Dr. Mark Olenik](https://donertas-group.github.io/people/) and [Dr. Melike Dönertaş](https://www.leibniz-fli.de/research/research-groups/associated-research-groups/d%C3%B6nertas-group) on a project aimed at understanding the stochastic nature of aging.
 
 Chronological age simply measures the time elapsed since birth. Aging, however, refers to the progressive decline in biological function that increases vulnerability to disease and death. Quantifying this process, often described as estimating an individual’s biological age, is central to understanding age-related diseases and designing interventions that promote healthy longevity. One widely used framework for this purpose is the concept of an aging clock.
 

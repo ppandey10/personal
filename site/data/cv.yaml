@@ -4,7 +4,7 @@ positions:
     institution: "Fritz Lipmann Institute, Germany"
     institution_url: "https://www.leibniz-fli.de/"
     supervisor: "Dr. H. Melike Dönertas"
-    supervisor_url: "https://www.leibniz-fli.de/research/research-groups/doenertas"
+    supervisor_url: "https://www.leibniz-fli.de/research/research-groups/associated-research-groups/d%C3%B6nertas-group"
     supervisor_label: "Advisor"
     roles:
       - dates: "April 2026 - Present"
@@ -55,6 +55,11 @@ positions:
       - "Theoretical astrophysics; first peer-reviewed publication on thermodynamics and gravitational lensing of charged black holes in perfect fluid dark matter."
 
 publications:
+  - authors: "Mark Olenik, Ismail Güderer, Yi Wang, Tayyab Alvi, Prasoon Pandey, and H. Melike Dönertas"
+    highlight_author: "Prasoon Pandey"
+    title: "Design and analysis strategies for robust microbiome ageing research"
+    venue: "FEBS Lett. 590 (2026)"
+    doi: "10.1002/1873-3468.70397"
   - authors: "Uma Papnoi, Farruh Atamurotov, Hemwati Nandan, Prasoon Pandey, G. Mustafa, and Ikhtiyor Saidov"
     highlight_author: "Prasoon Pandey"
     title: "Thermodynamics and lensing of charged black hole surrounded by perfect fluid dark matter"
