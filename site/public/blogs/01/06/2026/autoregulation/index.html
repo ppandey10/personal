@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/personal/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=personal/livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Autoregulation | Hi, I am Prasoon!</title>
@@ -43,7 +43,7 @@
 </header>
 
 <main class="page-content blog-content">
-    <p>This is the second post in the series on systems biology. In the previous <a href="http://localhost:1313/personal/blogs/31/05/2026/introduction-to-transcription-networks/">post</a>, we discussed the dynamics of a simple (single interaction) transcription network. In this post, we will get our hands dirty by looking at the dynamics of a complex transcription network with multiple interactions.</p>
+    <p>This is the second post in the series on systems biology. In the previous <a href="https://ppandey10.github.io/personal/blogs/31/05/2026/introduction-to-transcription-networks/">post</a>, we discussed the dynamics of a simple (single interaction) transcription network. In this post, we will get our hands dirty by looking at the dynamics of a complex transcription network with multiple interactions.</p>
 <p><strong>GOAL:</strong> Before we dig further, it&rsquo;s important to clarify the objective of this post. Framing it as the questions we want to answer: <strong>How do we find meaningful patterns in a complex web of thousands of genes? And how does a simple loop completely alter the speed limit ($T_{1/2} = \tau$) we just established?</strong></p>
 <h1 id="anatomy-of-patterns-subgraphs">Anatomy of Patterns: Subgraphs</h1>
 <p>The transcription network is a complex web of thousands of genes and interactions. To make sense of this complexity, we need to break this down into smaller, more manageable pieces which are called <strong>subgraphs</strong>. Now, we identify a meaningful subgraph on the basis of <em>statistical significance</em>. We will come back to the exact definition of statistical significance later. But the idea is that to define statistical significance, we need to compare how often a subgraph appears in the real network to how often it appears in an ensemble of <strong>randomized networks</strong>.</p>
@@ -115,7 +115,7 @@ Z = \frac{N_{\text{real}} - \langle N_{\text{random}} \rangle}{\sigma_{\text{ran
 $$<p>Therefore, the Z-score is 35. <strong>This means that the number of self-arrows in the <em>E. coli</em> network is 35 standard deviations away from the random expectation. This is a very significant result. It means that the occurrence of autoregulation in the <em>E. coli</em> network is not by chance.</strong></p>
 <p>Thus, self-arrows, and in particular negatively autoregulated genes, are a network motif. A network motif is a recurring pattern in the network that occurs far more often than at random.</p>
 <h1 id="role-of-negative-autoregulation">Role of Negative Autoregulation</h1>
-<p>Alon in the last paragraph of section 2.3 asks an important question: <strong>How does negative autoregulation fit into the cell’s information-processing machinery?</strong> He connects the idea back to the drawback of simple open-loop circuits that we discussed in the previous <a href="http://localhost:1313/personal/blogs/31/05/2026/introduction-to-transcription-networks/">post</a>.</p>
+<p>Alon in the last paragraph of section 2.3 asks an important question: <strong>How does negative autoregulation fit into the cell’s information-processing machinery?</strong> He connects the idea back to the drawback of simple open-loop circuits that we discussed in the previous <a href="https://ppandey10.github.io/personal/blogs/31/05/2026/introduction-to-transcription-networks/">post</a>.</p>
 <blockquote>
 <p>For stable proteins that are not appreciably degraded in the cell, the response time is equal to the cell generation time.</p>
 </blockquote>
@@ -221,24 +221,7 @@ $$<p>which is independent of the production rate $\beta$. Also, the repression t
 </main>
 
       <footer class="site-footer">
-        <script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']],
-    processEscapes: true
-  },
-  output: {
-    font: 'mathjax-pagella',
-    scale: 1
-  },
-  chtml: {
-    matchFontHeight: false
-  }
-};
-</script>
-<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml-nofont.js" crossorigin="anonymous"></script>
-
+        
         
         <p class="site-footer-text">© <a href="https://ppandey10.github.io/personal/">Prasoon Pandey</a> 2025 &ndash; 2026 | <a href="https://github.com/ppandey10">Github</a> | <a href="https://x.com/panprasoon">Twitter</a></p>
         

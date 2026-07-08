@@ -1,7 +1,14 @@
 baseurl: "https://ppandey10.github.io/personal/"  # please update this to your actual URL
 languageCode: "en-us"
 title: "Hi, I am Prasoon!"
-theme: "personal"
+module:
+  mounts:
+    - source: ../layouts
+      target: layouts
+    - source: ../static
+      target: static
+    - source: ../archetypes
+      target: archetypes
 googleAnalytics: ""
 disqusShortname: ""
 ignoreFiles: ["_cache$"]
