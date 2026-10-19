@@ -1086,12 +1086,17 @@ strong {
     gap: 0.35rem;
   }
 
+  .cv-main {
+    flex: 0 1 auto;
+  }
+
   .cv-entry--static .cv-body {
     flex-direction: column;
     align-items: flex-start;
   }
 
   .cv-supervisor {
+    flex: 0 1 auto;
     flex-basis: auto;
     margin-left: 0;
     text-align: left;
