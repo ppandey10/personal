@@ -633,8 +633,6 @@ strong {
 
 .page-research .page-content > h2 + p {
   margin-bottom: 0.9rem;
-  color: var(--fg);
-  font-weight: 700;
   line-height: 1.65;
 }
 
@@ -1068,12 +1066,14 @@ strong {
 
   .home-sidebar {
     position: static;
+    width: 100%;
     align-items: center;
     gap: 1rem;
   }
 
   .home-photo {
-    width: 6.5rem;
+    width: 100%;
+    max-width: 100%;
   }
 
   .social-links {
