@@ -40,9 +40,6 @@ menu:
     - name: Research
       url: "research/"
       weight: 3
-    - name: Blogs
-      url: "blogs/"
-      weight: 4
 
 params:
   description: "Personal website of Prasoon Pandey."
